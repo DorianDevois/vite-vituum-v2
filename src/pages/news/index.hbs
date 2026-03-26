@@ -1,15 +1,3 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    {{> head/base-href }}
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>News</title>
-  </head>
-  <body>
-    <a href="">HomePage</a>
-    <h1>News Page</h1>
-    <script type="module" src="/src/js/main.js"></script>
-  </body>
-</html>
+
+  {{> layouts/base page=(lookup . "news")}}
+  {{log this}}
