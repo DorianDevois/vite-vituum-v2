@@ -5,7 +5,7 @@ import { handlebarsHelpers } from './src/js/helpers/handlebars/index.js';
 import { globalContext } from './src/data/create-context';
 
 export default defineConfig({
-  // Для корректної роботи скрипта (npm run preview)
+  // Для корректної роботи скрипта (npm run preview) після білда
   // base: '/vite-vituum-v2/',
   plugins: [
     vituum(),
