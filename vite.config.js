@@ -6,7 +6,7 @@ import { globalContext } from './src/data/create-context';
 
 export default defineConfig({
   // base: '/',
-  base: '/vite-vituum-v2/',
+  // base: '/vite-vituum-v2/',
   plugins: [
     vituum(),
     handlebars({
