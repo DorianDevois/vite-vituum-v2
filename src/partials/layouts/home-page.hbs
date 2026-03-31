@@ -1,0 +1,11 @@
+<html lang='en'>
+  {{> layouts/head/index }}
+  <body data-page="{{page.slug}}">
+    {{> layouts/header/index }}
+    {{> layouts/home-page/main }}
+
+    {{!-- {{> layouts/footer/footer}} --}}
+    {{> components/backdrop/backdrop}}
+    <script type="module" src="/src/js/main.js"></script>
+  </body>
+</html>

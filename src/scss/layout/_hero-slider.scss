@@ -1,0 +1,272 @@
+.slider-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.slider-wrapper .slider-item {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - var(--page-header-height));
+
+  display: flex;
+  align-items: center;
+}
+
+.slider-wrapper .slider-item::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  filter: grayscale(20%);
+  background-image: url('../assets/images/slider/img-1.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.slider-wrapper .slider-item:nth-child(2)::before {
+  background-image: url('../assets/images/slider/img-2.jpg');
+}
+
+.slider-wrapper .slider-item:nth-child(3)::before {
+  background-image: url('../assets/images/slider/img-3.jpg');
+}
+
+.slider-wrapper .slider-item:nth-child(4)::before {
+  background-image: url('../assets/images/slider/img-4.jpg');
+}
+
+.slider-wrapper .slider-item:nth-child(5)::before {
+  background-image: url('../assets/images/slider/img-5.jpg');
+}
+
+.slider-wrapper .slider-item .slider-content {
+  opacity: 0;
+  color: #fff;
+  z-index: 20;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px 10px;
+  max-width: 1400px;
+  position: relative;
+}
+
+.slider-item.swiper-slide-active .slider-content {
+  animation: animate_opacity 800ms 600ms linear forwards;
+}
+
+@keyframes animate_opacity {
+  100% {
+    opacity: 1;
+  }
+}
+
+.slider-wrapper .slider-item .slider-content > * {
+  max-width: 35%;
+}
+
+.slider-item .slider-content .slider-subtitle {
+  font-size: 1rem;
+  font-weight: 400;
+  opacity: 0;
+  transform: translateY(60%);
+}
+
+.slider-item .slider-content .slider-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 5px;
+  text-transform: uppercase;
+  opacity: 0;
+  transform: translateY(60%);
+}
+
+.slider-item.swiper-slide-active :where(.slider-subtitle, .slider-title) {
+  animation: animate_text 600ms 600ms linear forwards;
+}
+
+@keyframes animate_text {
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.slider-item .slider-content .slider-description {
+  margin-top: 25px;
+  line-height: 25px;
+  opacity: 0;
+  transform: translateY(60%);
+}
+
+.slider-item.swiper-slide-active .slider-description {
+  animation: animate_text 600ms 1000ms linear forwards;
+}
+
+@keyframes animate_text {
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.slider-item .slider-content .slider-button {
+  color: fff;
+  width: 250px;
+  padding: 13px 0;
+  display: block;
+  margin-top: 45px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 2px solid #fff;
+  opacity: 0;
+  transform: scale(0);
+
+  transition:
+    color 250ms linear,
+    background-color 250ms linear;
+}
+
+.slider-item .slider-content .slider-button span {
+  opacity: 0;
+}
+
+.slider-item.swiper-slide-active .slider-button span {
+  animation: animate_opacity 600ms 1600ms linear forwards;
+}
+
+.slider-item.swiper-slide-active .slider-button {
+  animation: animate_button 600ms 1300ms linear forwards;
+}
+
+@keyframes animate_button {
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.slider-item .slider-content .slider-button:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+.slider-container .slider-controls {
+  position: absolute;
+  bottom: 45px;
+  z-index: 20;
+  width: 100%;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+// Значення padding 20(px) використовується у функції updatePagination
+// для підрахунку значення для translateX()
+.slider-controls .slider-pagination {
+  position: relative;
+  display: flex;
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1400px;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.slider-pagination .slider-indicator {
+  position: absolute;
+  bottom: 0;
+  width: 300px;
+  border-bottom: 2px solid #fff;
+
+  transition: transform 250ms ease-in-out;
+}
+
+.slider-pagination .slider-tab {
+  padding: 20px 30px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.slider-navigation button {
+  position: absolute;
+  top: 50%;
+  z-index: 20;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 40px;
+  height: 40px;
+
+  cursor: pointer;
+  border: none;
+  border-radius: 9999px;
+
+  color: fff;
+  background-color: #202022;
+  transform: translateY(-50%);
+
+  transition: background-color 250ms linear;
+}
+
+.slider-navigation button.swiper-button-disabled {
+  display: none;
+}
+
+.slider-navigation button:hover {
+  background-color: #323235;
+}
+
+.slider-navigation button#slide-prev {
+  left: 20px;
+}
+
+.slider-navigation button#slide-next {
+  right: 20px;
+}
+
+@media (max-width: 1536px) {
+  .slider-wrapper .slider-item .slider-content,
+  .slider-controls .slider-pagination {
+    width: 85%;
+  }
+}
+
+@media (max-width: 1023.98px) {
+  .slider-wrapper .slider-item .slider-content,
+  .slider-controls .slider-pagination {
+    width: 100%;
+  }
+
+  .slider-wrapper .slider-item .slider-content > * {
+    max-width: 66%;
+  }
+
+  .slider-navigation button {
+    top: unset;
+    bottom: -15px;
+    background: none;
+  }
+
+  .slider-navigation button:hover {
+    background: none;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .slider-wrapper .slider-item .slider-content > * {
+    max-width: 100%;
+  }
+}
