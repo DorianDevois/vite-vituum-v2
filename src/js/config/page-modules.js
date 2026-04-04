@@ -1,4 +1,5 @@
 import { initHomePage } from '../pages/home.js';
+import { initAboutUsPage } from '../pages/about-us.js';
 import { initCompetitionsPage } from '../pages/competitions.js';
 import { initDisciplinesPage } from '../pages/disciplines.js';
 import { initAthletesPage } from '../pages/athletes.js';
@@ -9,6 +10,7 @@ import { initContactsPage } from '../pages/contacts.js';
 
 export const pageModules = {
   home: initHomePage,
+  about: initAboutUsPage,
   competitions: initCompetitionsPage,
   disciplines: initDisciplinesPage,
   athletes: initAthletesPage,

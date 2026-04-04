@@ -3,5 +3,6 @@
   "title": "Competitions",
   "description": "",
   "keywords": "",
-  "canonical": "https://doriandevois.github.io/aze-shooting/competitions/"
+  "canonical": "https://doriandevois.github.io/aze-shooting/competitions/",
+  "breadcrumbs": [{ "label": "Home", "path": "/" }, { "label": "Competitions" }]
 }

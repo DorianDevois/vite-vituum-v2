@@ -3,6 +3,6 @@
   "title": "Gallery",
   "description": "",
   "keywords": "",
-  "image": "/assets/gallery.jpg",
-  "canonical": "https://doriandevois.github.io/aze-shooting/gallery/"
+  "canonical": "https://doriandevois.github.io/aze-shooting/gallery/",
+  "breadcrumbs": [{ "label": "Home", "path": "/" }, { "label": "Gallery" }]
 }

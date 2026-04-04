@@ -2,5 +2,6 @@
   "slug": "disciplines",
   "title": "Disciplines",
   "description": "",
-  "keywords": ""
+  "keywords": "",
+  "breadcrumbs": [{ "label": "Home", "path": "/" }, { "label": "Disciplines" }]
 }

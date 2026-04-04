@@ -3,6 +3,7 @@ import site from './global/site.json';
 import socials from './global/socials.json';
 
 import home from './pages/home.json';
+import about from './pages/about-us.json';
 import competitions from './pages/competitions.json';
 import disciplines from './pages/disciplines.json';
 import athletes from './pages/athletes.json';
@@ -18,6 +19,7 @@ const globalContext = {
   socials,
 
   home,
+  about,
   competitions,
   disciplines,
   athletes,
