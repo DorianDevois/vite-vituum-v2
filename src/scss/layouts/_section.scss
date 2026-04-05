@@ -1,12 +1,12 @@
-.page-section {
+.section {
   padding-block: var(--space-5xl);
 }
 
-.page-section:nth-child(odd) {
+.section:nth-child(odd) {
   background-color: var(--color-bg-secondary);
 }
 
-.page-section__header {
+.section__header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -14,7 +14,7 @@
   row-gap: var(--space-lg);
 }
 
-.page-section__title {
+.section__title {
   font-size: var(--font-size-2xl);
   line-height: var(--line-height-base);
   letter-spacing: var(--tracking-ui);
@@ -26,7 +26,7 @@
   // }
 }
 
-.page-section__link {
+.section__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,16 +60,16 @@
   }
 }
 
-.page-section__link > .icon {
+.section__link > .icon {
   flex-shrink: 0;
   width: 1rem;
   fill: currentColor;
 }
 
-.page-section__excerpt {
+.section__excerpt {
   margin-top: var(--space-lg);
 }
 
-.page-section__body {
+.section__body {
   margin-top: var(--space-lg);
 }

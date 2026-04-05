@@ -1,4 +1,4 @@
-.page-header {
+.header {
   position: fixed;
   top: 0;
   left: 0;
@@ -18,11 +18,11 @@
   }
 }
 
-.page-header__container {
+.header__container {
   flex-grow: 1;
 }
 
-.page-header__nav {
+.header__nav {
   display: flex;
   align-items: center;
   justify-content: space-between;

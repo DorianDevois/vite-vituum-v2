@@ -1,0 +1,12 @@
+  {{! Page Hero Section  }}
+  <section class='hero {{#if page.slug}}hero--{{page.slug}}{{/if}}'>
+    <div class='hero__container container'>
+      {{! Page Hero Title }}
+      <h1 class='hero__title'>{{page.title}}</h1>
+      {{! Page Breadcrumbs  }}
+      {{> components/breadcrumbs/breadcrumbs
+          breadcrumbs=page.breadcrumbs
+          addClass="hero__breadcrumbs"
+      }}
+    </div>
+  </section>

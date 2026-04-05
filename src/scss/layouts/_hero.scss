@@ -1,4 +1,4 @@
-.page-hero {
+.hero {
   --hero-bg-image: url(https://picsum.photos/1600/800);
 
   display: flex;
@@ -22,7 +22,7 @@
   }
 }
 
-.page-hero__container {
+.hero__container {
   display: flex;
   flex-direction: column;
   align-items: center;
