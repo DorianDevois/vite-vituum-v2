@@ -10,7 +10,7 @@ function createAthleteCard(athlete) {
     residence_id,
   } = athlete;
 
-  const defaultUrl = "/assets/images/athletes/default/no-image-available.png";
+  const defaultUrl = "assets/images/athletes/default/no-image-available.png";
 
   return `<li class="grid__item" data-athlete-id="${id}">
                 <article class="team-card" data-roles="${role_id}">
