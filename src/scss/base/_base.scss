@@ -21,6 +21,10 @@ body {
   &.modal-open {
     overflow: hidden;
   }
+
+  @media (max-width: 767.98px) {
+    font-size: var(--font-size-sm);
+  }
 }
 
 h1,

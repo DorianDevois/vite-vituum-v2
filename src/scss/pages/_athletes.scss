@@ -1,0 +1,39 @@
+.page-athletes__filtered-list {
+  display: none;
+  flex-wrap: wrap;
+  margin-top: var(--space-lg);
+}
+
+.page-athletes__filtered-list.is-visible {
+  display: flex;
+}
+
+.section.pistol,
+.section.rifle,
+.section.skeet,
+.section.trap {
+  padding-block: var(--space-xl);
+}
+
+.section.pistol .title,
+.section.rifle .title,
+.section.skeet .title,
+.section.trap .title {
+  text-transform: uppercase;
+}
+
+.pistolSwiper .swiper-wrapper,
+.rifleSwiper .swiper-wrapper,
+.skeetSwiper .swiper-wrapper,
+.trapSwiper .swiper-wrapper {
+  height: auto;
+  margin-top: var(--space-md);
+  margin-bottom: var(--space-2xl);
+}
+
+.pistolSwiper .swiper-slide,
+.rifleSwiper .swiper-slide,
+.skeetSwiper .swiper-slide,
+.trapSwiper .swiper-slide {
+  border: 1px solid transparent;
+}

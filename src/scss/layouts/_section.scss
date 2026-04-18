@@ -1,5 +1,9 @@
 .section {
   padding-block: var(--space-5xl);
+
+  &--toolbar {
+    padding-block: 0;
+  }
 }
 
 .section:nth-child(odd) {

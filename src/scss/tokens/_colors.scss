@@ -3,8 +3,8 @@
   --black: #000000;
   --white: #ffffff;
   --spanish-gray: #9ca3af;
-  --deep-indigo: #2e2f42;
-  --night-sky: #4169e1;
+  --deep-indigo: rgb(46, 47, 66);
+  --night-sky: rgb(65, 105, 225);
   --ocean: #404bbf;
   --sky-blue: #99afef;
   --grape-violet: #9400d3;
@@ -32,7 +32,7 @@
   --color-text-inverse: var(--white);
   --color-text-muted: var(--spanish-gray);
 
-  --color-text-light: var(--cool-gray);
+  --color-text-light: var(--light-gray);
   --color-text-dark: var(--deep-indigo);
 
   /* Backgrounds */

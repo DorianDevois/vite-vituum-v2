@@ -1,0 +1,79 @@
+[
+  {
+    "id": "main",
+    "name": "Main Squad",
+    "description": "Primary athletes representing the national team in major competitions",
+
+    "sort_order": 1,
+    "is_active": true,
+
+    "created_at": "",
+    "updated_at": ""
+  },
+  {
+    "id": "reserve",
+    "name": "Reserve Squad",
+    "description": "Backup athletes who may replace main squad members if needed",
+
+    "sort_order": 2,
+    "is_active": true,
+
+    "created_at": "",
+    "updated_at": ""
+  },
+  {
+    "id": "candidate",
+    "name": "Candidate Squad",
+    "description": "Athletes considered for future promotion to the national team",
+
+    "sort_order": 3,
+    "is_active": true,
+
+    "created_at": "",
+    "updated_at": ""
+  },
+  {
+    "id": "development",
+    "name": "Development Squad",
+    "description": "Young or developing athletes being prepared for higher level teams",
+
+    "sort_order": 4,
+    "is_active": true,
+
+    "created_at": "",
+    "updated_at": ""
+  },
+  {
+    "id": "olympic_pool",
+    "name": "Olympic Pool",
+    "description": "Athletes selected as potential Olympic team members",
+
+    "sort_order": 5,
+    "is_active": true,
+
+    "created_at": "",
+    "updated_at": ""
+  },
+  {
+    "id": "training",
+    "name": "Training Squad",
+    "description": "Athletes included in national team training camps but not official competition roster",
+
+    "sort_order": 6,
+    "is_active": true,
+
+    "created_at": "",
+    "updated_at": ""
+  },
+  {
+    "id": "guest",
+    "name": "Guest Athlete",
+    "description": "Athlete temporarily training or competing with the team",
+
+    "sort_order": 7,
+    "is_active": true,
+
+    "created_at": "",
+    "updated_at": ""
+  }
+]

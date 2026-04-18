@@ -1,0 +1,50 @@
+[
+  {
+    "id": "active",
+    "name": "Active",
+    "entity": "athlete",
+    "description": "Athlete is currently an active member of the team",
+
+    "sort_order": 1,
+    "is_active": true,
+
+    "created_at": "",
+    "updated_at": ""
+  },
+  {
+    "id": "injured",
+    "name": "Injured",
+    "entity": "athlete",
+    "description": "Athlete temporarily unable to compete due to injury",
+
+    "sort_order": 2,
+    "is_active": true,
+
+    "created_at": "",
+    "updated_at": ""
+  },
+  {
+    "id": "suspended",
+    "name": "Suspended",
+    "entity": "athlete",
+    "description": "Athlete is suspended due to disciplinary or administrative reasons",
+
+    "sort_order": 3,
+    "is_active": true,
+
+    "created_at": "",
+    "updated_at": ""
+  },
+  {
+    "id": "retired",
+    "name": "Retired",
+    "entity": "athlete",
+    "description": "Athlete retired from national team participation",
+
+    "sort_order": 4,
+    "is_active": true,
+
+    "created_at": "",
+    "updated_at": ""
+  }
+]

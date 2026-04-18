@@ -1,6 +1,8 @@
 /* Styles for Mobile devices */
 .container {
-  // max-width: 600px;
+  --container-padding: var(--space-md);
+
+  width: 100%;
 
   padding-inline: var(--container-padding);
   margin-inline: auto;
@@ -9,18 +11,24 @@
     max-width: 600px;
   }
 
+  @media (max-width: 319.98px) {
+    // --container-padding: var(--space-md);
+  }
+
   /* Styles for Tablet devices */
-  @media screen and (min-width: 768px) {
-    // max-width: 900px;
+  @media (min-width: 768px) and (max-width: 1023.98px) {
+    max-width: 900px;
   }
 
   /* Styles for Laptop devices */
-  @media screen and (min-width: 1024px) {
+  @media (min-width: 1024px) {
+    // --container-padding: var(--space-xl);
+
     max-width: 1280px;
   }
 
   /* Styles for Desktop devices */
-  @media screen and (min-width: 1440px) {
-    max-width: 1320px;
+  @media (min-width: 1440px) {
+    // max-width: 1440px;
   }
 }

@@ -1,0 +1,24 @@
+.toolbar {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  // margin-top: 1rem;
+  // padding: var(--space-lg);
+  // border: 1px solid var(--color-border-soft-dark);
+  // border-radius: var(--radius-lg);
+}
+
+.toolbar__excerpt {
+  padding-bottom: var(--space-md);
+}
+
+.toolbar__container {
+  display: flex;
+  width: 100%;
+  gap: var(--space-lg);
+}
+
+.toolbar__search .search__input {
+  width: 100%;
+}

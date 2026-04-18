@@ -1,0 +1,34 @@
+[
+  {
+    "id": "10m_air_pistol_men",
+    "code": "10m_air_pistol_men",
+    "name": "10m Air Pistol Men",
+    "category_id": "pistol",
+    "distance_id": "10m",
+    "gender_id": "male",
+    "event_format_id": "individual",
+    "age_category_id": "senior",
+
+    "sort_order": 1,
+    "is_active": true,
+
+    "created_at": "",
+    "updated_at": ""
+  },
+  {
+    "id": "10m_air_pistol_women",
+    "code": "10m_air_pistol_women",
+    "name": "10m Air Pistol Women",
+    "category_id": "pistol",
+    "distance_id": "10m",
+    "gender_id": "female",
+    "event_format_id": "individual",
+    "age_category_id": "senior",
+
+    "sort_order": 2,
+    "is_active": true,
+
+    "created_at": "",
+    "updated_at": ""
+  }
+]

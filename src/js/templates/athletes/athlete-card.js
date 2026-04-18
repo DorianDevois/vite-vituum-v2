@@ -1,0 +1,98 @@
+function createAthleteCard(athlete) {
+  const {
+    id,
+    slug,
+    role_id,
+    images: { portrait },
+    first_name,
+    last_name,
+    country_id,
+    residence_id,
+  } = athlete;
+
+  const defaultUrl = "/assets/images/athletes/default/no-image-available.png";
+
+  return `<li class="grid__item" data-athlete-id="${id}">
+                <article class="team-card" data-roles="${role_id}">
+                  <!-- Thumbnail -->
+                  <div class="team-card__thumbnail">
+                    <img
+                      class="team-card__image"
+                      src="${portrait ?? defaultUrl}"
+                      alt="${role_id} ${last_name} ${first_name}"
+                      loading="lazy" />
+
+                    <!-- Role Badge -->
+                    <ul class="badges badges--top-right" aria-label="Team role">
+                      <li class="badges__item badges__item--role">
+                        <a class="badges__link" href="/athletes/?discipline=pistol" data-discipline="pistol">Pistol</a>
+                      </li>
+                    </ul>
+
+                    <!-- Country Badge -->
+                    <ul class="badges badges--top-left" aria-label="Country badge">
+                      <li class="badges__item badges__item--country">
+                        <a
+                          class="badges__link"
+                          href="pages/athletes/?country=${country_id}"
+                          data-country="${country_id}"
+                          aria-label="Filter by country: Azerbaijan">
+                          <svg class="badges__icon" width="43" height="32" aria-hidden="true">
+                            <use href="assets/icons/sprite.svg#icon-flag-az"></use>
+                          </svg>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <!-- CONTENT -->
+                  <div class="team-card__content">
+                    <!-- Meta -->
+                    <div class="team-card__meta">
+                      <h3 class="team-card__name">
+                        <a class="team-card__name-link" href="/athletes/${slug}">${last_name} ${first_name}</a>
+                      </h3>
+                      <!-- <p class="team-card__age">25 years</p> -->
+                      <p class="team-card__location">${residence_id}, Azerbaijan</p>
+                    </div>
+
+                    <div class="team-card__social socials">
+                      <ul class="socials__list" aria-label="Social links">
+                        <li>
+                          <a class="socials__link" href="" aria-label="Instagram">
+                            <svg class="socials__icon" width="20" height="20" aria-hidden="true">
+                              <use href="assets/icons/sprite.svg#icon-social-instagram"></use>
+                            </svg>
+                          </a>
+                        </li>
+                        <li>
+                          <a class="socials__link" href="" aria-label="X (Twitter)">
+                            <svg class="socials__icon" width="20" height="20" aria-hidden="true">
+                              <use href="assets/icons/sprite.svg#icon-social-x"></use>
+                            </svg>
+                          </a>
+                        </li>
+                        <li>
+                          <a class="socials__link" href="" aria-label="Facebook">
+                            <svg class="socials__icon" width="20" height="20" aria-hidden="true">
+                              <use href="assets/icons/sprite.svg#icon-social-facebook"></use>
+                            </svg>
+                          </a>
+                        </li>
+                        <li>
+                          <a class="socials__link" href="" aria-label="LinkedIn">
+                            <svg class="socials__icon" width="20" height="20" aria-hidden="true">
+                              <use href="assets/icons/sprite.svg#icon-social-linkedin"></use>
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </article>
+              </li>`;
+}
+
+export function createAthleteCardList(athletes) {
+  return athletes.map(createAthleteCard).join("");
+}

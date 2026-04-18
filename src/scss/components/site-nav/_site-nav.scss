@@ -5,6 +5,10 @@
 
   @media (min-width: 768px) {
     display: flex;
+    gap: var(--space-lg);
+  }
+
+  @media (min-width: 1024px) {
     gap: var(--space-xl);
   }
 }

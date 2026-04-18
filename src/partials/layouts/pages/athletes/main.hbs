@@ -1,6 +1,141 @@
 {{! Page Content }}
-<main>
-  {{! Page Hero Section  }}
+<main class="page-athletes">
+  {{!-- Page Hero Section --}}
   {{> layouts/hero/index }}
 
+  <div class="container">
+    <div class="page-athletes__toolbar toolbar">
+      <!-- <h2 class="toolbar__title">Athlete search</h2> -->
+      <!-- <p class="toolbar__excerpt">Start typing to search...</p> -->
+
+      <div class="toolbar__container">
+        {{> components/search/search addClass="toolbar__search js-athlete-search"}}
+        {{> components/filter-toggle/filter-toggle addClass="toolbar__filter-toggle"}}
+      </div>
+
+      {{!-- Розділ, що розгортається --}}
+      <div class="filter-panel">
+        <div class="filter-panel__grid">
+          <!-- Discipline Type -->
+          <div class="filter-panel__group">
+            <b>Discipline</b>
+            <select name="discipline">
+              <option value="all">All</option>
+              <option value="pistol">Pistol</option>
+              <option value="rifle">Rifle</option>
+              <option value="skeet">Shotgun</option>
+            </select>
+          </div>
+
+          <!-- Gender -->
+          <div class="filter-panel__group">
+            <b>Gender</b>
+            <select name="gender">
+              <option value="all">All</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+          </div>
+
+          {{!-- Filter tags --}}
+          <div class="filter-panel__group">
+            <div class="filters">
+              <!-- <h3 class="filters__title">Filter Tags</h3> -->
+              <ul class="filters__list">
+                <li
+                  class="filters__item js-filter"
+                  data-name="teams"
+                  data-value="team_national"
+                >
+                  <span class="filters__label">National Team</span>
+                  <button class="filters__btn" type="button">
+                    <svg class="filters__btn-icon">
+                      <use href="/assets/icons/sprite.svg#icon-ui-clear"></use>
+                    </svg>
+                  </button>
+                </li>
+                <li
+                  class="filters__item js-filter"
+                  data-name="clubs"
+                  data-value="din_ic"
+                >
+                  <span class="filters__label">DIN IC</span>
+                  <button class="filters__btn" type="button">
+                    <svg class="filters__btn-icon">
+                      <use href="/assets/icons/sprite.svg#icon-ui-clear"></use>
+                    </svg>
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <ul
+      class="grid grid--5 js-search-results page-athletes__search-results"
+    ></ul>
+  </div>
+
+  {{!-- Pistol Team --}}
+  <section class="section pistol">
+    <div class="container">
+      <h2 class="title">Air Pistol Team</h2>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque, tenetur
+        libero. Aspernatur pariatur impedit voluptates, eaque doloribus
+        praesentium iusto obcaecati.
+      </p>
+      <div class="swiper pistolSwiper">
+        <ul class="js-pistol-container swiper-wrapper"></ul>
+        <div class="pistol-swiper-pagination swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+
+  {{!-- Refle Team --}}
+  <section class="section rifle">
+    <div class="container">
+      <h2 class="title">Air Rifle Team</h2>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. A esse animi
+        vel aliquam odio aperiam et ullam id, ea numquam?
+      </p>
+      <div class="swiper rifleSwiper">
+        <ul class="js-rifle-container swiper-wrapper"></ul>
+        <div class="rifle-swiper-pagination swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+
+  {{!-- Skeet Team --}}
+  <section class="section skeet">
+    <div class="container">
+      <h2 class="title">Skeet Team</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+        officiis, sunt accusamus temporibus amet dolore eveniet quaerat corporis
+        cum culpa!
+      </p>
+      <div class="swiper skeetSwiper">
+        <ul class="js-skeet-container swiper-wrapper"></ul>
+        <div class="skeet-swiper-pagination swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+
+  {{!-- Trap Team --}}
+  <section class="section trap">
+    <div class="container">
+      <h2 class="title">Trap Team</h2>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam dolorem
+        magni impedit odit molestias laboriosam iste fuga nihil sunt blanditiis.
+      </p>
+      <div class="swiper trapSwiper">
+        <ul class="js-trap-container swiper-wrapper"></ul>
+        <div class="trap-swiper-pagination swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
 </main>

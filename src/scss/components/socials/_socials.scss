@@ -24,11 +24,12 @@
   border-radius: var(--radius-full);
 
   line-height: 1;
-  color: var(--color-text-inverse);
 
   background-color: rgba(255, 255, 255, 0.1);
 
-  transition: background-color var(--duration-normal) var(--timing-cubic);
+  transition:
+    color var(--duration-normal) var(--timing-cubic),
+    background-color var(--duration-normal) var(--timing-cubic);
 
   &:hover,
   &:focus {

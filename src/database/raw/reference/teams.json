@@ -1,0 +1,42 @@
+[
+  {
+    "id": "team_national",
+    "name": "National Team",
+    "level": "senior",
+    "description": "Main national team",
+    "sort_order": 1,
+    "is_active": true,
+    "created_at": "",
+    "updated_at": ""
+  },
+  {
+    "id": "team_junior",
+    "name": "Junior National Team",
+    "level": "junior",
+    "description": "",
+    "sort_order": 2,
+    "is_active": true,
+    "created_at": "",
+    "updated_at": ""
+  },
+  {
+    "id": "team_youth",
+    "name": "Youth National Team",
+    "level": "youth",
+    "description": "",
+    "sort_order": 3,
+    "is_active": true,
+    "created_at": "",
+    "updated_at": ""
+  },
+  {
+    "id": "team_olympic",
+    "name": "Olympic Squad",
+    "level": "senior",
+    "description": "",
+    "sort_order": 4,
+    "is_active": true,
+    "created_at": "",
+    "updated_at": ""
+  }
+]
