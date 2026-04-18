@@ -90,7 +90,7 @@
                   <div class="team-card__thumbnail">
                     <img
                       class="team-card__image"
-                      src="${i??`/assets/images/athletes/default/no-image-available.png`}"
+                      src="${i??`assets/images/athletes/default/no-image-available.png`}"
                       alt="${r} ${o} ${a}"
                       loading="lazy" />
 
