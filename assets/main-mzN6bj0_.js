@@ -78,20 +78,20 @@
         translate3d(${p}, ${m}, ${h}px)
         rotateZ(${i.rotate?r?-_:_:0}deg)
         scale(${S})
-      `;if(i.slideShadows){let e=l.querySelector(`.swiper-slide-shadow`);e||=X(`cards`,l),e&&(e.style.opacity=Math.min(Math.max((Math.abs(d)-.5)/.5,0),1))}l.style.zIndex=-Math.abs(Math.round(u))+t.length;let w=J(i,l);w.style.transform=C}},setTransition:t=>{let n=e.slides.map(e=>D(e));n.forEach(e=>{e.style.transitionDuration=`${t}ms`,e.querySelectorAll(`.swiper-slide-shadow`).forEach(e=>{e.style.transitionDuration=`${t}ms`})}),Y({swiper:e,duration:t,transformElements:n})},perspective:()=>!0,overwriteParams:()=>({_loopSwapReset:!1,watchSlidesProgress:!0,loopAdditionalSlides:e.params.cardsEffect.rotate?3:2,centeredSlides:!0,virtualTranslate:!e.params.cssMode})})}var rn=[Dt,Ot,kt,Mt,Nt,Pt,Ft,It,Lt,Rt,zt,Bt,Vt,Ht,Ut,Wt,Xt,Zt,Qt,$t,en,tn,nn];G.use(rn);function an(){console.log(`Home page init`);let e=document.querySelectorAll(`.slider-tab`),t=document.querySelector(`.slider-indicator`),n=document.querySelector(`.slider-controls`),r=new G(`.slider-container`,{effect:`fade`,speed:1300,autoplay:{delay:5e3},navigation:{prevEl:`#slide-prev`,nextEl:`#slide-next`},on:{slideChange:()=>{let t=[...e].indexOf(e[r.activeIndex]);i(e[r.activeIndex],t)},reachEnd:()=>r.autoplay.stop()}});function i(r,i){t.style.transform=`translateX(${r.offsetLeft-20}px)`,t.style.width=`${r.getBoundingClientRect().width}px`;let a=e[i].offsetLeft-n.offsetWidth/2+e[i].offsetWidth/2;n.scrollTo({left:a,behavior:`smooth`})}e.forEach((e,t)=>{e.addEventListener(`click`,()=>{r.slideTo(t),i(e,t)})}),i(e[0],0),window.addEventListener(`resize`,()=>i(e[r.activeIndex],0))}function on(){console.log(`About-us page init`),console.log(location.pathname)}function sn(){console.log(`Competitions page init`)}function cn(){console.log(`Disciplines page init`)}async function ln(){try{let e=await fetch(`assets/data/people.json`);if(!e.ok)throw Error(`Failed to fetch statuses: ${e.status}`);return e.json()}catch(e){return console.error(`Error fetching Athletes:`,e),[]}}var un=class{constructor({containerSelector:e,toggleSelector:t,panelSelector:n}){this.refs={container:document.querySelector(e),toggle:document.querySelector(t),panel:document.querySelector(n)},this.init()}init(){this.bindEvents()}bindEvents(){this.refs.toggle?.addEventListener(`click`,this.handleToggleClick),this.refs.container?.addEventListener(`click`,this.handleFilterClick)}handleToggleClick=()=>{this.refs.toggle.classList.toggle(`is-active`),this.refs.panel.classList.toggle(`is-open`)};handleFilterClick=e=>{let t=e.target.closest(`.js-filter`);if(t){if(e.target.closest(`.filters__btn`)){this.deactivateFilter(t);return}this.isActive(t)||this.activateFilter(t)}};activateFilter(e){e.classList.add(`is-active`),this.appendClearButton(e)}deactivateFilter(e){e.classList.remove(`is-active`),this.removeClearButton(e)}isActive(e){return e.classList.contains(`is-active`)}appendClearButton(e){e.querySelector(`.filters__btn`)||e.insertAdjacentHTML(`beforeend`,this.getClearButtonMarkup())}removeClearButton(e){let t=e.querySelector(`.filters__btn`);t&&t.remove()}getClearButtonMarkup(){return`
+      `;if(i.slideShadows){let e=l.querySelector(`.swiper-slide-shadow`);e||=X(`cards`,l),e&&(e.style.opacity=Math.min(Math.max((Math.abs(d)-.5)/.5,0),1))}l.style.zIndex=-Math.abs(Math.round(u))+t.length;let w=J(i,l);w.style.transform=C}},setTransition:t=>{let n=e.slides.map(e=>D(e));n.forEach(e=>{e.style.transitionDuration=`${t}ms`,e.querySelectorAll(`.swiper-slide-shadow`).forEach(e=>{e.style.transitionDuration=`${t}ms`})}),Y({swiper:e,duration:t,transformElements:n})},perspective:()=>!0,overwriteParams:()=>({_loopSwapReset:!1,watchSlidesProgress:!0,loopAdditionalSlides:e.params.cardsEffect.rotate?3:2,centeredSlides:!0,virtualTranslate:!e.params.cssMode})})}var rn=[Dt,Ot,kt,Mt,Nt,Pt,Ft,It,Lt,Rt,zt,Bt,Vt,Ht,Ut,Wt,Xt,Zt,Qt,$t,en,tn,nn];G.use(rn);function an(){console.log(`Home page init`);let e=document.querySelectorAll(`.slider-tab`),t=document.querySelector(`.slider-indicator`),n=document.querySelector(`.slider-controls`),r=new G(`.slider-container`,{effect:`fade`,speed:1300,autoplay:{delay:5e3},navigation:{prevEl:`#slide-prev`,nextEl:`#slide-next`},on:{slideChange:()=>{let t=[...e].indexOf(e[r.activeIndex]);i(e[r.activeIndex],t)},reachEnd:()=>r.autoplay.stop()}});function i(r,i){t.style.transform=`translateX(${r.offsetLeft-20}px)`,t.style.width=`${r.getBoundingClientRect().width}px`;let a=e[i].offsetLeft-n.offsetWidth/2+e[i].offsetWidth/2;n.scrollTo({left:a,behavior:`smooth`})}e.forEach((e,t)=>{e.addEventListener(`click`,()=>{r.slideTo(t),i(e,t)})}),i(e[0],0),window.addEventListener(`resize`,()=>i(e[r.activeIndex],0))}function on(){console.log(`About-us page init`),console.log(location.pathname)}function sn(){console.log(`Competitions page init`)}function cn(){console.log(`Disciplines page init`)}async function ln(){try{let e=await fetch(`assets/data/athletes.json`);if(!e.ok)throw Error(`Failed to fetch statuses: ${e.status}`);return e.json()}catch(e){return console.error(`Error fetching Athletes:`,e),[]}}var un=class{constructor({containerSelector:e,toggleSelector:t,panelSelector:n}){this.refs={container:document.querySelector(e),toggle:document.querySelector(t),panel:document.querySelector(n)},this.init()}init(){this.bindEvents()}bindEvents(){this.refs.toggle?.addEventListener(`click`,this.handleToggleClick),this.refs.container?.addEventListener(`click`,this.handleFilterClick)}handleToggleClick=()=>{this.refs.toggle.classList.toggle(`is-active`),this.refs.panel.classList.toggle(`is-open`)};handleFilterClick=e=>{let t=e.target.closest(`.js-filter`);if(t){if(e.target.closest(`.filters__btn`)){this.deactivateFilter(t);return}this.isActive(t)||this.activateFilter(t)}};activateFilter(e){e.classList.add(`is-active`),this.appendClearButton(e)}deactivateFilter(e){e.classList.remove(`is-active`),this.removeClearButton(e)}isActive(e){return e.classList.contains(`is-active`)}appendClearButton(e){e.querySelector(`.filters__btn`)||e.insertAdjacentHTML(`beforeend`,this.getClearButtonMarkup())}removeClearButton(e){let t=e.querySelector(`.filters__btn`);t&&t.remove()}getClearButtonMarkup(){return`
       <button class="filters__btn" type="button">
         <svg class="filters__btn-icon">
           <use href="/assets/icons/sprite.svg#icon-ui-clear"></use>
         </svg>
       </button>
-    `}};function dn(e){let{id:t,slug:n,role_id:r,images:{portrait:i},first_name:a,last_name:o,country_id:s,residence_id:c}=e;return`<li class="grid__item" data-athlete-id="${t}">
-                <article class="team-card" data-roles="${r}">
+    `}};function dn(e){let{id:t,slug:n,role:r,images:{portrait:i},name:a,surname:o,fullname:s,country:c,residence:l}=e;return`<li class="grid__item" data-athlete-id="${t}">
+                <article class="team-card" data-roles="${r.id}">
                   <!-- Thumbnail -->
                   <div class="team-card__thumbnail">
                     <img
                       class="team-card__image"
-                      src="${i??`assets/images/athletes/default/no-image-available.png`}"
-                      alt="${r} ${o} ${a}"
+                      src="${i.url??`assets/images/athletes/defaults/avatar.png`}"
+                      alt="${i.alt}"
                       loading="lazy" />
 
                     <!-- Role Badge -->
@@ -106,11 +106,11 @@
                       <li class="badges__item badges__item--country">
                         <a
                           class="badges__link"
-                          href="pages/athletes/?country=${s}"
-                          data-country="${s}"
-                          aria-label="Filter by country: Azerbaijan">
+                          href="pages/athletes/?country=${c.slug}"
+                          data-country="${c.id}"
+                          aria-label="Filter by country: ${c.name}">
                           <svg class="badges__icon" width="43" height="32" aria-hidden="true">
-                            <use href="assets/icons/sprite.svg#icon-flag-az"></use>
+                            <use href="assets/icons/sprite.svg#icon-flag-${c.alpha2}"></use>
                           </svg>
                         </a>
                       </li>
@@ -122,37 +122,37 @@
                     <!-- Meta -->
                     <div class="team-card__meta">
                       <h3 class="team-card__name">
-                        <a class="team-card__name-link" href="/athletes/${n}">${o} ${a}</a>
+                        <a class="team-card__name-link" href="athletes/">${s}</a>
                       </h3>
                       <!-- <p class="team-card__age">25 years</p> -->
-                      <p class="team-card__location">${c}, Azerbaijan</p>
+                      <p class="team-card__location">${l.name}, ${c.name}</p>
                     </div>
 
                     <div class="team-card__social socials">
                       <ul class="socials__list" aria-label="Social links">
                         <li>
-                          <a class="socials__link" href="" aria-label="Instagram">
+                          <a class="socials__link" href="athletes/" aria-label="Instagram">
                             <svg class="socials__icon" width="20" height="20" aria-hidden="true">
                               <use href="assets/icons/sprite.svg#icon-social-instagram"></use>
                             </svg>
                           </a>
                         </li>
                         <li>
-                          <a class="socials__link" href="" aria-label="X (Twitter)">
+                          <a class="socials__link" href="athletes/" aria-label="X (Twitter)">
                             <svg class="socials__icon" width="20" height="20" aria-hidden="true">
                               <use href="assets/icons/sprite.svg#icon-social-x"></use>
                             </svg>
                           </a>
                         </li>
                         <li>
-                          <a class="socials__link" href="" aria-label="Facebook">
+                          <a class="socials__link" href="athletes/" aria-label="Facebook">
                             <svg class="socials__icon" width="20" height="20" aria-hidden="true">
                               <use href="assets/icons/sprite.svg#icon-social-facebook"></use>
                             </svg>
                           </a>
                         </li>
                         <li>
-                          <a class="socials__link" href="" aria-label="LinkedIn">
+                          <a class="socials__link" href="athletes/" aria-label="LinkedIn">
                             <svg class="socials__icon" width="20" height="20" aria-hidden="true">
                               <use href="assets/icons/sprite.svg#icon-social-linkedin"></use>
                             </svg>
@@ -162,20 +162,20 @@
                     </div>
                   </div>
                 </article>
-              </li>`}function fn(e){return e.map(dn).join(``)}function pn(e){let{id:t,slug:n,role_id:r,images:{portrait:i},first_name:a,last_name:o,country_id:s,residence_id:c}=e;return`<li class="swiper-slide" data-athlete-id="${t}">
-                <article class="team-card" data-roles="${r}">
+              </li>`}function fn(e){return e.map(dn).join(``)}function pn(e){let{id:t,slug:n,role:r,images:{portrait:i},name:a,surname:o,fullname:s,country:c,residence:l}=e;return`<li class="swiper-slide" data-athlete-id="${t}">
+                <article class="team-card" data-roles="${r.id}">
                   <!-- Thumbnail -->
                   <div class="team-card__thumbnail">
                     <img
                       class="team-card__image"
-                      src="${i??`assets/images/athletes/default/no-image-available.png`}"
-                      alt="${r} ${o} ${a}"
+                      src="${i.url??`assets/images/athletes/defaults/avatar.png`}"
+                      alt="${i.alt}"
                       loading="lazy" />
 
                     <!-- Role Badge -->
                     <ul class="badges badges--top-right" aria-label="Team role">
                       <li class="badges__item badges__item--role">
-                        <a class="badges__link" href="/athletes/?discipline=pistol" data-discipline="pistol">Pistol</a>
+                        <a class="badges__link" href="athletes/?discipline=pistol" data-discipline="pistol">Pistol</a>
                       </li>
                     </ul>
 
@@ -184,11 +184,11 @@
                       <li class="badges__item badges__item--country">
                         <a
                           class="badges__link"
-                          href="pages/athletes/?country=${s}"
-                          data-country="${s}"
-                          aria-label="Filter by country: Azerbaijan">
+                          href="athletes/?country=${c.slug}"
+                          data-country="${c.id}"
+                          aria-label="Filter by country: ${c.name}">
                           <svg class="badges__icon" width="43" height="32" aria-hidden="true">
-                            <use href="assets/icons/sprite.svg#icon-flag-az"></use>
+                            <use href="assets/icons/sprite.svg#icon-flag-${c.alpha2}"></use>
                           </svg>
                         </a>
                       </li>
@@ -200,37 +200,37 @@
                     <!-- Meta -->
                     <div class="team-card__meta">
                       <h3 class="team-card__name">
-                        <a class="team-card__name-link" href="/athletes/${n}">${o} ${a}</a>
+                        <a class="team-card__name-link" href="athletes/">${s}</a>
                       </h3>
                       <!-- <p class="team-card__age">25 years</p> -->
-                      <p class="team-card__location">${c}, Azerbaijan</p>
+                      <p class="team-card__location">${l.name}, ${c.name}</p>
                     </div>
 
                     <div class="team-card__social socials">
                       <ul class="socials__list" aria-label="Social links">
                         <li>
-                          <a class="socials__link" href="" aria-label="Instagram">
+                          <a class="socials__link" href="athletes/" aria-label="Instagram">
                             <svg class="socials__icon" width="20" height="20" aria-hidden="true">
                               <use href="assets/icons/sprite.svg#icon-social-instagram"></use>
                             </svg>
                           </a>
                         </li>
                         <li>
-                          <a class="socials__link" href="" aria-label="X (Twitter)">
+                          <a class="socials__link" href="athletes/" aria-label="X (Twitter)">
                             <svg class="socials__icon" width="20" height="20" aria-hidden="true">
                               <use href="assets/icons/sprite.svg#icon-social-x"></use>
                             </svg>
                           </a>
                         </li>
                         <li>
-                          <a class="socials__link" href="" aria-label="Facebook">
+                          <a class="socials__link" href="athletes/" aria-label="Facebook">
                             <svg class="socials__icon" width="20" height="20" aria-hidden="true">
                               <use href="assets/icons/sprite.svg#icon-social-facebook"></use>
                             </svg>
                           </a>
                         </li>
                         <li>
-                          <a class="socials__link" href="" aria-label="LinkedIn">
+                          <a class="socials__link" href="athletes/" aria-label="LinkedIn">
                             <svg class="socials__icon" width="20" height="20" aria-hidden="true">
                               <use href="assets/icons/sprite.svg#icon-social-linkedin"></use>
                             </svg>
@@ -240,4 +240,4 @@
                     </div>
                   </div>
                 </article>
-              </li>`}function Z(e){return e.map(pn).join(``)}function mn(e,t=300){let n;function r(...r){clearTimeout(n),n=setTimeout(()=>{e.apply(this,r)},t)}return r.cancel=function(){clearTimeout(n)},r}var Q=await ln(),hn=Q.map(e=>({...e,search_name:`${e.last_name} ${e.first_name}`.toLowerCase().trim()})),$={searchInput:document.querySelector(`.js-athlete-search .search__input`),searchResults:document.querySelector(`.js-search-results`),pistolContainer:document.querySelector(`.js-pistol-container`),rifleContainer:document.querySelector(`.js-rifle-container`),skeetContainer:document.querySelector(`.js-skeet-container`),trapContainer:document.querySelector(`.js-trap-container`)},gn={slidesPerView:1,spaceBetween:20,loop:!0,pagination:{el:`.pistol-swiper-pagination`,clickable:!0,dynamicBullets:!0},breakpoints:{576:{slidesPerView:2},768:{slidesPerView:3},1024:{slidesPerView:4},1440:{slidesPerView:5}}},_n={slidesPerView:1,spaceBetween:20,loop:!0,pagination:{el:`.rifle-swiper-pagination`,clickable:!0,dynamicBullets:!0},breakpoints:{576:{slidesPerView:2},768:{slidesPerView:3},1024:{slidesPerView:4},1440:{slidesPerView:5}}},vn={slidesPerView:1,spaceBetween:20,loop:!0,pagination:{el:`.skeet-swiper-pagination`,clickable:!0,dynamicBullets:!0},breakpoints:{576:{slidesPerView:2},768:{slidesPerView:3},1024:{slidesPerView:4},1440:{slidesPerView:5}}},yn={slidesPerView:1,spaceBetween:20,loop:!0,pagination:{el:`.trap-swiper-pagination`,clickable:!0,dynamicBullets:!0},breakpoints:{576:{slidesPerView:2},768:{slidesPerView:3},1024:{slidesPerView:4},1440:{slidesPerView:5}}};function bn(){console.log(`Athletes page init`);let e=mn(Sn,600);$.searchInput.addEventListener(`input`,e),$.pistolContainer.insertAdjacentHTML(`beforeend`,Z(Q)),$.rifleContainer.insertAdjacentHTML(`beforeend`,Z(Q)),$.skeetContainer.insertAdjacentHTML(`beforeend`,Z(Q)),$.trapContainer.insertAdjacentHTML(`beforeend`,Z(Q)),new G(`.pistolSwiper`,gn),new G(`.rifleSwiper`,_n),new G(`.skeetSwiper`,vn),new G(`.trapSwiper`,yn),new un({containerSelector:`.filters__list`,toggleSelector:`.filter-toggle`,panelSelector:`.filter-panel`})}function xn(e){$.searchResults.innerHTML=fn(e)}function Sn(e){let t=Tn(e.target.value);if(!t.length){wn();return}let n=hn.filter(({search_name:e})=>e.includes(t));if(!n.length){wn();return}console.log(n),xn(n),Cn()}function Cn(){$.searchResults.classList.add(`is-visible`)}function wn(){$.searchResults.classList.remove(`is-visible`)}function Tn(e){return e.toLowerCase().trim()}function En(){console.log(`Results page init`)}function Dn(){console.log(`News page init`)}function On(){console.log(`Gallery page init`)}function kn(){console.log(`Contacts page init`)}var An={home:an,about:on,competitions:sn,disciplines:cn,athletes:bn,results:En,news:Dn,gallery:On,contacts:kn};function jn(){let e=document.body.dataset.page;if(!e){console.error(`Відсутній атрибут data-page на body`);return}let t=An[e];t&&t()}function Mn(){l(),jn()}Mn(),console.log(`Hello Bro!`);
+              </li>`}function Z(e){return e.map(pn).join(``)}function mn(e,t=300){let n;function r(...r){clearTimeout(n),n=setTimeout(()=>{e.apply(this,r)},t)}return r.cancel=function(){clearTimeout(n)},r}var Q=await ln(),$={searchInput:document.querySelector(`.js-athlete-search > .search__input`),filterBox:document.querySelector(`.filter-box`),filterBoxResults:document.querySelector(`.filter-box__results`),filterBoxMsg:document.querySelector(`.filter-box__message`),pistolContainer:document.querySelector(`.js-pistol-container`),rifleContainer:document.querySelector(`.js-rifle-container`),skeetContainer:document.querySelector(`.js-skeet-container`),trapContainer:document.querySelector(`.js-trap-container`)},hn={slidesPerView:1,spaceBetween:20,loop:!0,pagination:{el:`.pistol-swiper-pagination`,clickable:!0,dynamicBullets:!0},breakpoints:{576:{slidesPerView:2},768:{slidesPerView:3},1024:{slidesPerView:4},1440:{slidesPerView:5}}},gn={slidesPerView:1,spaceBetween:20,loop:!0,pagination:{el:`.rifle-swiper-pagination`,clickable:!0,dynamicBullets:!0},breakpoints:{576:{slidesPerView:2},768:{slidesPerView:3},1024:{slidesPerView:4},1440:{slidesPerView:5}}},_n={slidesPerView:1,spaceBetween:20,loop:!0,pagination:{el:`.skeet-swiper-pagination`,clickable:!0,dynamicBullets:!0},breakpoints:{576:{slidesPerView:2},768:{slidesPerView:3},1024:{slidesPerView:4},1440:{slidesPerView:5}}},vn={slidesPerView:1,spaceBetween:20,loop:!0,pagination:{el:`.trap-swiper-pagination`,clickable:!0,dynamicBullets:!0},breakpoints:{576:{slidesPerView:2},768:{slidesPerView:3},1024:{slidesPerView:4},1440:{slidesPerView:5}}};function yn(){console.log(`Athletes page init`);let e=mn(xn,600);$.searchInput.addEventListener(`input`,e),$.pistolContainer.insertAdjacentHTML(`beforeend`,Z(Q)),$.rifleContainer.insertAdjacentHTML(`beforeend`,Z(Q)),$.skeetContainer.insertAdjacentHTML(`beforeend`,Z(Q)),$.trapContainer.insertAdjacentHTML(`beforeend`,Z(Q)),new G(`.pistolSwiper`,hn),new G(`.rifleSwiper`,gn),new G(`.skeetSwiper`,_n),new G(`.trapSwiper`,vn),new un({containerSelector:`.filters__list`,toggleSelector:`.filter-toggle`,panelSelector:`.filter-panel`})}function bn(e){$.filterBoxResults.innerHTML=fn(e)}function xn(e){let t=jn(e.target.value);if(!t.length){wn(),En(),On(),An(),Cn();return}let n=Q.filter(({fullname:e})=>jn(e).includes(t));if(!n.length){Sn(),wn(),En(),Dn(),kn();return}console.log(n),On(),bn(n),Sn(),Tn()}function Sn(){$.filterBox.classList.add(`is-visible`)}function Cn(){$.filterBox.classList.remove(`is-visible`)}function wn(){$.filterBoxResults.innerHTML=``}function Tn(){$.filterBoxResults.classList.add(`is-visible`)}function En(){$.filterBoxResults.classList.remove(`is-visible`)}function Dn(){$.filterBoxMsg.textContent=`No search results!`,$.filterBoxMsg.classList.add(`filter-box__message--failed`)}function On(){$.filterBoxMsg.textContent=``,$.filterBoxMsg.classList.remove(`filter-box__message--failed`)}function kn(){$.filterBoxMsg.classList.add(`is-visible`)}function An(){$.filterBoxMsg.classList.remove(`is-visible`)}function jn(e){return e.toLowerCase().trim()}function Mn(){console.log(`Results page init`)}function Nn(){console.log(`News page init`)}function Pn(){console.log(`Gallery page init`)}function Fn(){console.log(`Contacts page init`)}var In={home:an,about:on,competitions:sn,disciplines:cn,athletes:yn,results:Mn,news:Nn,gallery:Pn,contacts:Fn};function Ln(){let e=document.body.dataset.page;if(!e){console.error(`Відсутній атрибут data-page на body`);return}let t=In[e];t&&t()}function Rn(){l(),Ln()}Rn(),console.log(`Hello Bro!`);
