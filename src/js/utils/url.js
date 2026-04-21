@@ -1,16 +1,31 @@
+/**
+ * Формирует нормализованный URL из базовой части и слага (slug).
+ * Автоматически обрабатывает лишние слеши и гарантирует закрывающий слеш в конце.
+ *
+ * @param {string|null|undefined} base - Базовая часть URL (например, 'https://site.com/').
+ * @param {string|null|undefined} slug - Относительный путь или идентификатор (например, '/my-page/').
+ * @returns {string} Сформированный URL. Возвращает пустую строку, если входные данные отсутствуют.
+ *
+ * @example
+ * buildUrl('http://api.com/', '/users/') // 'http://api.com/users/'
+ * buildUrl(null, 'contacts')             // '/contacts/'
+ * buildUrl('home', '')                   // 'home/'
+ */
 export const buildUrl = (base, slug) => {
   if (!base && !slug) {
-    return '';
+    return "";
   }
 
-  const safeBase = (base || '').toString();
-  const safeSlug = (slug || '').toString();
+  const safeBase = (base || "").toString();
+  const safeSlug = (slug || "").toString();
 
-  const normalizedBase = safeBase.replace(/\/+$/, '');
-  const normalizedSlug = safeSlug.replace(/^\/+|\/+$/g, '');
+  // Удаляем слеши в конце базового пути
+  const normalizedBase = safeBase.replace(/\/+$/, "");
+  // Удаляем слеши в начале и в конце слага
+  const normalizedSlug = safeSlug.replace(/^\/+|\/+$/g, "");
 
   if (!normalizedBase && !normalizedSlug) {
-    return '';
+    return "";
   }
 
   if (!normalizedBase) {
@@ -23,16 +38,29 @@ export const buildUrl = (base, slug) => {
   return `${normalizedBase}/${normalizedSlug}/`;
 };
 
+/**
+ * Формирует абсолютный URL. Если путь уже содержит протокол (http/https),
+ * он возвращается без изменений.
+ *
+ * @param {string|null|undefined} base - Базовая часть URL (домен).
+ * @param {string|null|undefined} path - Путь или полный URL.
+ * @returns {string} Результирующий абсолютный URL или пустая строка.
+ *
+ * @example
+ * buildAbsUrl('https://site.com', 'api/v1')      // 'https://site.com'
+ * buildAbsUrl('https://site.com', 'https://external.com') // 'https://external.com'
+ * buildAbsUrl(null, 'profile')                   // '/profile'
+ */
 export const buildAbsUrl = (base, path) => {
   if (!base && !path) {
-    return '';
+    return "";
   }
 
-  const safeBase = (base || '').toString();
-  const safePath = (path || '').toString();
+  const safeBase = (base || "").toString();
+  const safePath = (path || "").toString();
 
   if (!safeBase && !safePath) {
-    return '';
+    return "";
   }
 
   // якщо path вже абсолютний URL — повертаємо як є
@@ -40,8 +68,8 @@ export const buildAbsUrl = (base, path) => {
     return safePath;
   }
 
-  const normalizedBase = safeBase.replace(/\/+$/, '');
-  const normalizedPath = safePath.replace(/^\/+/, '');
+  const normalizedBase = safeBase.replace(/\/+$/, "");
+  const normalizedPath = safePath.replace(/^\/+/, "");
 
   // якщо є тільки base
   if (!normalizedPath && normalizedBase) {
@@ -58,5 +86,5 @@ export const buildAbsUrl = (base, path) => {
     return `${normalizedBase}/${normalizedPath}`;
   }
 
-  return '';
+  return "";
 };

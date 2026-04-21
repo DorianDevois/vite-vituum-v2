@@ -1,0 +1,35 @@
+[
+  {
+    "id": "europe",
+    "code": "EU",
+    "name": "Europe",
+
+    "sort_order": 1,
+    "is_active": true,
+
+    "created_at": "",
+    "updated_at": ""
+  },
+  {
+    "id": "asia",
+    "code": "AS",
+    "name": "Asia",
+
+    "sort_order": 2,
+    "is_active": true,
+
+    "created_at": "",
+    "updated_at": ""
+  },
+  {
+    "id": "north_america",
+    "code": "NA",
+    "name": "North America",
+
+    "sort_order": 3,
+    "is_active": true,
+
+    "created_at": "",
+    "updated_at": ""
+  }
+]

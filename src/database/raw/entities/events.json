@@ -1,0 +1,209 @@
+[
+  {
+    "id": "10m_air_rifle_men",
+    "slug": "10m-air-rifle-men",
+    "name": "10m Air Rifle Men",
+    "code": "10ARM",
+    "discipline_id": "10m_air_rifle",
+    "gender_id": "male",
+    "format_id": "individual",
+
+    "is_olympic": true,
+
+    "is_active": true,
+    "sort_order": 1,
+
+    "created_at": "",
+    "updated_at": ""
+  },
+  {
+    "id": "10m_air_rifle_women",
+    "slug": "10m-air-rifle-women",
+    "name": "10m Air Rifle Women",
+    "code": "10ARW",
+    "discipline_id": "10m_air_rifle",
+    "gender_id": "female",
+    "format_id": "individual",
+
+    "is_olympic": true,
+
+    "is_active": true,
+    "sort_order": 2,
+
+    "created_at": "",
+    "updated_at": ""
+  },
+  {
+    "id": "10m_air_rifle_mixed",
+    "slug": "10m-air-rifle-mixed",
+    "name": "10m Air Rifle Mixed Team",
+    "code": "10ARMT",
+    "discipline_id": "10m_air_rifle",
+    "gender_id": "mixed",
+    "format_id": "team",
+
+    "is_olympic": true,
+
+    "is_active": true,
+    "sort_order": 3,
+
+    "created_at": "",
+    "updated_at": ""
+  },
+
+  {
+    "id": "10m_air_pistol_men",
+    "slug": "10m-air-pistol-men",
+    "name": "10m Air Pistol Men",
+    "code": "10APM",
+    "discipline_id": "10m_air_pistol",
+    "gender_id": "male",
+    "format_id": "individual",
+
+    "is_olympic": true,
+
+    "is_active": true,
+    "sort_order": 10,
+
+    "created_at": "",
+    "updated_at": ""
+  },
+  {
+    "id": "10m_air_pistol_women",
+    "slug": "10m-air-pistol-women",
+    "name": "10m Air Pistol Women",
+    "code": "10APW",
+    "discipline_id": "10m_air_pistol",
+    "gender_id": "female",
+    "format_id": "individual",
+
+    "is_olympic": true,
+
+    "is_active": true,
+    "sort_order": 11,
+
+    "created_at": "",
+    "updated_at": ""
+  },
+  {
+    "id": "10m_air_pistol_mixed",
+    "slug": "10m-air-pistol-mixed",
+    "name": "10m Air Pistol Mixed Team",
+    "code": "10APMT",
+    "discipline_id": "10m_air_pistol",
+    "gender_id": "mixed",
+    "format_id": "team",
+
+    "is_olympic": true,
+
+    "is_active": true,
+    "sort_order": 12,
+
+    "created_at": "",
+    "updated_at": ""
+  },
+
+  {
+    "id": "trap_men",
+    "slug": "trap-men",
+    "name": "Trap Men",
+    "code": "TRM",
+    "discipline_id": "trap",
+    "gender_id": "male",
+    "format_id": "individual",
+
+    "is_olympic": true,
+
+    "is_active": true,
+    "sort_order": 20,
+
+    "created_at": "",
+    "updated_at": ""
+  },
+  {
+    "id": "trap_women",
+    "slug": "trap-women",
+    "name": "Trap Women",
+    "code": "TRW",
+    "discipline_id": "trap",
+    "gender_id": "female",
+    "format_id": "individual",
+
+    "is_olympic": true,
+
+    "is_active": true,
+    "sort_order": 21,
+
+    "created_at": "",
+    "updated_at": ""
+  },
+  {
+    "id": "trap_mixed",
+    "slug": "trap-mixed",
+    "name": "Trap Mixed Team",
+    "code": "TRMT",
+    "discipline_id": "trap",
+    "gender_id": "mixed",
+    "format_id": "team",
+
+    "is_olympic": true,
+
+    "is_active": true,
+    "sort_order": 22,
+
+    "created_at": "",
+    "updated_at": ""
+  },
+
+  {
+    "id": "skeet_men",
+    "slug": "skeet-men",
+    "name": "Skeet Men",
+    "code": "SKM",
+    "discipline_id": "skeet",
+    "gender_id": "male",
+    "format_id": "individual",
+
+    "is_olympic": true,
+
+    "is_active": true,
+    "sort_order": 30,
+
+    "created_at": "",
+    "updated_at": ""
+  },
+  {
+    "id": "skeet_women",
+    "slug": "skeet-women",
+    "name": "Skeet Women",
+    "code": "SKW",
+    "discipline_id": "skeet",
+    "gender_id": "female",
+    "format_id": "individual",
+
+    "is_olympic": true,
+
+    "is_active": true,
+    "sort_order": 31,
+
+    "created_at": "",
+    "updated_at": ""
+  },
+  {
+    "id": "skeet_mixed",
+    "slug": "skeet-mixed",
+    "name": "Skeet Mixed Team",
+    "code": "SKMT",
+    "discipline_id": "skeet",
+    "gender_id": "mixed",
+    "format_id": "team",
+
+    "is_olympic": true,
+
+    "is_active": true,
+    "sort_order": 32,
+
+    "created_at": "",
+    "updated_at": ""
+  }
+]

@@ -1,0 +1,69 @@
+[
+  {
+    "id": "person",
+    "code": "person",
+    "name": "Person",
+    "description": "",
+
+    "sort_order": 1,
+    "is_active": true,
+
+    "created_at": "",
+    "updated_at": ""
+  },
+  {
+    "id": "news",
+    "code": "news",
+    "name": "News",
+
+    "sort_order": 2,
+    "is_active": true,
+
+    "created_at": "",
+    "updated_at": ""
+  },
+  {
+    "id": "competition",
+    "code": "competition",
+    "name": "Competition",
+
+    "sort_order": 3,
+    "is_active": true,
+
+    "created_at": "",
+    "updated_at": ""
+  },
+  {
+    "id": "discipline",
+    "code": "discipline",
+    "name": "Discipline",
+
+    "sort_order": 4,
+    "is_active": true,
+
+    "created_at": "",
+    "updated_at": ""
+  },
+  {
+    "id": "club",
+    "code": "club",
+    "name": "Club",
+
+    "sort_order": 5,
+    "is_active": true,
+
+    "created_at": "",
+    "updated_at": ""
+  },
+  {
+    "id": "organization",
+    "code": "organization",
+    "name": "Organization",
+
+    "sort_order": 6,
+    "is_active": true,
+
+    "created_at": "",
+    "updated_at": ""
+  }
+]

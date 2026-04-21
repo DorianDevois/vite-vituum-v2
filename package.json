@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite --host",
     "build": "vite build --base=/vite-vituum-v2/",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "build:athletes": "node src/js/scripts/build-athletes.js"
   },
   "devDependencies": {
     "@vituum/vite-plugin-handlebars": "^2.0.2",

@@ -1,4 +1,4 @@
-import { fetchAthletes } from "../api/athletes-api";
+import { fetchAthletes, fetchTeamMembers } from "../api/athletes-api";
 import { Filters } from "../helpers/filters/filters";
 import { createAthleteCardList } from "../templates/athletes/athlete-card";
 import { createSwiperAthleteCardList } from "../templates/athletes/athlete-card-swiper";
@@ -9,13 +9,14 @@ import Swiper from "swiper/bundle";
 import "swiper/css/bundle";
 
 const athletes = await fetchAthletes();
-const athletesWithSearchName = athletes.map((a) => ({
-  ...a,
-  search_name: `${a.last_name} ${a.first_name}`.toLowerCase().trim(),
-}));
+// const teamMemberships = await fetchTeamMembers();
+// console.log(teamMemberships);
+
 const refs = {
-  searchInput: document.querySelector(".js-athlete-search .search__input"),
-  searchResults: document.querySelector(".js-search-results"),
+  searchInput: document.querySelector(".js-athlete-search > .search__input"),
+  filterBox: document.querySelector(".filter-box"),
+  filterBoxResults: document.querySelector(".filter-box__results"),
+  filterBoxMsg: document.querySelector(".filter-box__message"),
   pistolContainer: document.querySelector(".js-pistol-container"),
   rifleContainer: document.querySelector(".js-rifle-container"),
   skeetContainer: document.querySelector(".js-skeet-container"),
@@ -170,37 +171,77 @@ export function initAthletesPage() {
 
 // Search logic
 function renderFilteredAthletes(athletes) {
-  refs.searchResults.innerHTML = createAthleteCardList(athletes);
+  refs.filterBoxResults.innerHTML = createAthleteCardList(athletes);
 }
 
 function handleInputSearch(evt) {
   const searchQuery = stringNormalize(evt.target.value);
 
   if (!searchQuery.length) {
-    hideSearchResults();
+    clearFilterBoxResults();
+    hideFilterBoxResults();
+    removeFilterBoxMsg();
+    hideFilterBoxMsg();
+    hideFilterBox();
     return;
   }
 
-  const filteredAthletes = athletesWithSearchName.filter(({ search_name }) =>
-    search_name.includes(searchQuery),
+  const filteredAthletes = athletes.filter(({ fullname }) =>
+    stringNormalize(fullname).includes(searchQuery),
   );
 
   if (!filteredAthletes.length) {
-    hideSearchResults();
+    showFilterBox();
+    clearFilterBoxResults();
+    hideFilterBoxResults();
+    setFilterBoxErrorMsg();
+    showFilterBoxMsg();
     return;
   }
 
   console.log(filteredAthletes);
+  removeFilterBoxMsg();
   renderFilteredAthletes(filteredAthletes);
-  showSearchResults();
+  showFilterBox();
+  showFilterBoxResults();
 }
 
-function showSearchResults() {
-  refs.searchResults.classList.add("is-visible");
+function showFilterBox() {
+  refs.filterBox.classList.add("is-visible");
 }
 
-function hideSearchResults() {
-  refs.searchResults.classList.remove("is-visible");
+function hideFilterBox() {
+  refs.filterBox.classList.remove("is-visible");
+}
+
+function clearFilterBoxResults() {
+  refs.filterBoxResults.innerHTML = "";
+}
+
+function showFilterBoxResults() {
+  refs.filterBoxResults.classList.add("is-visible");
+}
+
+function hideFilterBoxResults() {
+  refs.filterBoxResults.classList.remove("is-visible");
+}
+
+function setFilterBoxErrorMsg() {
+  refs.filterBoxMsg.textContent = `No search results!`;
+  refs.filterBoxMsg.classList.add("filter-box__message--failed");
+}
+
+function removeFilterBoxMsg() {
+  refs.filterBoxMsg.textContent = "";
+  refs.filterBoxMsg.classList.remove("filter-box__message--failed");
+}
+
+function showFilterBoxMsg() {
+  refs.filterBoxMsg.classList.add("is-visible");
+}
+
+function hideFilterBoxMsg() {
+  refs.filterBoxMsg.classList.remove("is-visible");
 }
 
 function stringNormalize(string) {

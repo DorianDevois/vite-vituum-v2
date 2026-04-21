@@ -2,12 +2,3 @@
   margin-top: var(--space-lg);
   margin-bottom: var(--space-lg);
 }
-
-.page-athletes__search-results {
-  display: none;
-  margin-bottom: var(--space-lg);
-
-  &.is-visible {
-    display: flex;
-  }
-}

@@ -1,0 +1,35 @@
+.filter-box {
+  display: none;
+  flex-direction: column;
+
+  &.is-visible {
+    display: flex;
+  }
+}
+
+// .filter-box__results {
+//   display: none;
+
+//   &.is-visible {
+//     display: flex;
+//   }
+// }
+
+.filter-box__message {
+  display: none;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+
+  &.is-visible {
+    display: flex;
+  }
+
+  &--failed {
+    color: var(--color-brand-red);
+  }
+
+  &--success {
+    color: var(--color-brand-green);
+  }
+}

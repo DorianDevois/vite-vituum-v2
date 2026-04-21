@@ -14,9 +14,9 @@
     "updated_at": "2026-03-10 21:58:35.000"
   },
   {
-    "id": "mixed",
-    "name": "Mixed Team",
-    "description": "Team consisting of male and female athletes",
+    "id": "team",
+    "name": "Team",
+    "description": "Team competition where multiple athletes represent one team",
 
     "team_size": 2,
     "is_team_event": true,
@@ -28,15 +28,15 @@
     "updated_at": "2026-03-10 21:58:35.000"
   },
   {
-    "id": "team",
-    "name": "Team",
-    "description": "Team competition where multiple athletes represent one team",
+    "id": "team_aggregate",
+    "name": "Team (Aggregate)",
+    "description": "Team result calculated from individual athlete scores",
 
-    "team_size": 3,
+    "team_size": null,
     "is_team_event": true,
 
     "sort_order": 3,
-    "is_active": true,
+    "is_active": false,
 
     "created_at": "2026-03-10 21:58:35.000",
     "updated_at": "2026-03-10 21:58:35.000"
@@ -46,38 +46,10 @@
     "name": "Relay",
     "description": "Athletes compete sequentially as part of a team",
 
-    "team_size": 3,
-    "is_team_event": true,
-
-    "sort_order": 4,
-    "is_active": false,
-
-    "created_at": "2026-03-10 21:58:35.000",
-    "updated_at": "2026-03-10 21:58:35.000"
-  },
-  {
-    "id": "aggregate_team",
-    "name": "Aggregate Team Score",
-    "description": "Team result calculated from individual athlete scores",
-
-    "team_size": 0,
-    "is_team_event": true,
-
-    "sort_order": 5,
-    "is_active": false,
-
-    "created_at": "2026-03-10 21:58:35.000",
-    "updated_at": "2026-03-10 21:58:35.000"
-  },
-  {
-    "id": "mixed_relay",
-    "name": "Mixed Relay",
-    "description": "Relay event with mixed gender team members",
-
     "team_size": 2,
     "is_team_event": true,
 
-    "sort_order": 6,
+    "sort_order": 4,
     "is_active": false,
 
     "created_at": "2026-03-10 21:58:35.000",

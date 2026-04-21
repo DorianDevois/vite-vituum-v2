@@ -1,6 +1,6 @@
 [
   {
-    "id": "team_national",
+    "id": "national_team",
     "name": "National Team",
     "level": "senior",
     "description": "Main national team",
@@ -10,7 +10,7 @@
     "updated_at": ""
   },
   {
-    "id": "team_junior",
+    "id": "junior_team",
     "name": "Junior National Team",
     "level": "junior",
     "description": "",
@@ -20,7 +20,7 @@
     "updated_at": ""
   },
   {
-    "id": "team_youth",
+    "id": "youth_team",
     "name": "Youth National Team",
     "level": "youth",
     "description": "",
@@ -30,7 +30,7 @@
     "updated_at": ""
   },
   {
-    "id": "team_olympic",
+    "id": "olympic_team",
     "name": "Olympic Squad",
     "level": "senior",
     "description": "",

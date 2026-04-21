@@ -1,0 +1,82 @@
+[
+  {
+    "id": "portrait",
+    "code": "portrait",
+    "name": "Portrait",
+    "description": "Used in athlete profile",
+
+    "aspect_ratio": "2:3",
+    "recommended_width": 800,
+    "recommended_height": 1200,
+
+    "sort_order": 1,
+    "is_active": true,
+
+    "created_at": "",
+    "updated_at": ""
+  },
+  {
+    "id": "thumbnail",
+    "code": "thumbnail",
+    "name": "Thumbnail",
+    "description": "",
+
+    "aspect_ratio": "1:1",
+    "recommended_width": 300,
+    "recommended_height": 300,
+
+    "sort_order": 2,
+    "is_active": true,
+
+    "created_at": "",
+    "updated_at": ""
+  },
+  {
+    "id": "gallery",
+    "code": "gallery",
+    "name": "Gallery Image",
+    "description": "Gallery images",
+
+    "aspect_ratio": "16:9",
+    "recommended_width": 1920,
+    "recommended_height": 1080,
+
+    "sort_order": 3,
+    "is_active": true,
+
+    "created_at": "",
+    "updated_at": ""
+  },
+  {
+    "id": "icon",
+    "code": "icon",
+    "name": "Icon",
+    "description": "Icon images",
+
+    "aspect_ratio": "1:1",
+    "recommended_width": 200,
+    "recommended_height": 200,
+
+    "sort_order": 4,
+    "is_active": true,
+
+    "created_at": "",
+    "updated_at": ""
+  },
+  {
+    "id": "banner",
+    "code": "banner",
+    "name": "Banner",
+    "description": "",
+
+    "aspect_ratio": "16:9",
+    "recommended_width": 1600,
+    "recommended_height": 900,
+
+    "sort_order": 5,
+    "is_active": true,
+
+    "created_at": "",
+    "updated_at": ""
+  }
+]

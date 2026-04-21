@@ -1,0 +1,16 @@
+[
+  {
+    "athlete_id": "ath_0001",
+    "event_id": "10m_air_pistol_men",
+
+    "level": "primary",
+    "is_active": true
+  },
+  {
+    "athlete_id": "ath_0001",
+    "event_id": "10m_air_pistol_mixed",
+
+    "level": "secondary",
+    "is_active": true
+  }
+]

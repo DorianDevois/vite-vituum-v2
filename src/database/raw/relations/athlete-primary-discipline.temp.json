@@ -1,0 +1,11 @@
+[
+  {
+    "athlete_id": "ath_0001",
+    "discipline_category_id": "pistol",
+
+    "is_primary": true,
+
+    "created_at": "",
+    "updated_at": ""
+  }
+]

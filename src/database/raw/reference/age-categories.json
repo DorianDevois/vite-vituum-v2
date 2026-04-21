@@ -4,6 +4,7 @@
     "name": "Senior",
     "min_age": 21,
     "max_age": null,
+    "code": "PRO",
     "description": "Main adult competition category. Veteran / masters athletes",
 
     "sort_order": 1,
@@ -17,6 +18,7 @@
     "name": "Junior",
     "min_age": 18,
     "max_age": 20,
+    "code": "U21",
     "description": "Junior athletes under senior level",
 
     "sort_order": 2,
@@ -30,6 +32,7 @@
     "name": "Youth",
     "min_age": 14,
     "max_age": 17,
+    "code": "U18",
     "description": "Young athletes category",
 
     "sort_order": 3,

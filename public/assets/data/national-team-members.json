@@ -1,0 +1,841 @@
+[
+  {
+    "id": "ntm_0001",
+
+    "athlete_id": "ath_lunev_ruslan",
+    "team_id": "team_national",
+    "membership_status_id": "active",
+
+    "discipline_category_id": "pistol",
+    "squad_id": "main",
+
+    "selection_reason_id": "national_ranking",
+    "notes": "",
+
+    "since": "2026-01-01",
+    "until": null,
+
+    "created_at": "2026-04-05 20:05:35.000",
+    "updated_at": "2026-04-05 20:05:35.000"
+  },
+  {
+    "id": "ntm_0002",
+
+    "athlete_id": "ath_0002",
+    "team_id": "team_national",
+    "membership_status_id": "active",
+
+    "discipline_category_id": "pistol",
+
+    "squad_id": "main",
+
+    "selection_reason_id": "national_ranking",
+    "notes": "",
+
+    "since": "2026-01-01",
+    "until": null,
+
+    "created_at": "2026-04-05 20:10:35.000",
+    "updated_at": "2026-04-05 20:10:35.000"
+  },
+  {
+    "id": "ntm_0003",
+
+    "athlete_id": "ath_0003",
+    "team_id": "team_national",
+    "membership_status_id": "active",
+
+    "discipline_category_id": "pistol",
+
+    "squad_id": "main",
+
+    "selection_reason_id": "national_ranking",
+    "notes": "",
+
+    "since": "2026-01-01",
+    "until": null,
+
+    "created_at": "2026-04-05 20:15:35.000",
+    "updated_at": "2026-04-05 20:15:35.000"
+  },
+  {
+    "id": "ntm_0004",
+
+    "athlete_id": "ath_0004",
+    "team_id": "team_national",
+    "membership_status_id": "active",
+
+    "discipline_category_id": "pistol",
+
+    "squad_id": "main",
+
+    "selection_reason_id": "national_ranking",
+    "notes": "",
+
+    "since": "2026-01-01",
+    "until": null,
+
+    "created_at": "2026-04-05 20:15:35.000",
+    "updated_at": "2026-04-05 20:15:35.000"
+  },
+  {
+    "id": "ntm_0005",
+
+    "athlete_id": "ath_0005",
+    "team_id": "team_national",
+    "membership_status_id": "active",
+
+    "discipline_category_id": "pistol",
+
+    "squad_id": "main",
+
+    "selection_reason_id": "national_ranking",
+    "notes": "",
+
+    "since": "2026-01-01",
+    "until": null,
+
+    "created_at": "2026-04-05 20:15:35.000",
+    "updated_at": "2026-04-05 20:15:35.000"
+  },
+  {
+    "id": "ntm_0006",
+
+    "athlete_id": "ath_0006",
+    "team_id": "team_junior",
+    "membership_status_id": "active",
+
+    "discipline_category_id": "pistol",
+
+    "squad_id": "main",
+
+    "selection_reason_id": "national_ranking",
+    "notes": "",
+
+    "since": "2026-01-01",
+    "until": null,
+
+    "created_at": "2026-04-05 20:15:35.000",
+    "updated_at": "2026-04-05 20:15:35.000"
+  },
+  {
+    "id": "ntm_0007",
+
+    "athlete_id": "ath_0007",
+    "team_id": "team_junior",
+    "membership_status_id": "active",
+
+    "discipline_category_id": "pistol",
+
+    "squad_id": "main",
+
+    "selection_reason_id": "national_ranking",
+    "notes": "",
+
+    "since": "2026-01-01",
+    "until": null,
+
+    "created_at": "2026-04-05 20:15:35.000",
+    "updated_at": "2026-04-05 20:15:35.000"
+  },
+  {
+    "id": "ntm_0008",
+
+    "athlete_id": "ath_0008",
+    "team_id": "team_junior",
+    "membership_status_id": "active",
+
+    "discipline_category_id": "pistol",
+
+    "squad_id": "main",
+
+    "selection_reason_id": "national_ranking",
+    "notes": "",
+
+    "since": "2026-01-01",
+    "until": null,
+
+    "created_at": "2026-04-05 20:15:35.000",
+    "updated_at": "2026-04-05 20:15:35.000"
+  },
+  {
+    "id": "ntm_0030",
+
+    "athlete_id": "ath_0030",
+    "team_id": "team_national",
+    "membership_status_id": "active",
+
+    "discipline_category_id": "pistol",
+
+    "squad_id": "main",
+
+    "selection_reason_id": "national_ranking",
+    "notes": "",
+
+    "since": "2026-01-01",
+    "until": null,
+
+    "created_at": "2026-04-05 20:15:35.000",
+    "updated_at": "2026-04-05 20:15:35.000"
+  },
+  {
+    "id": "ntm_0031",
+
+    "athlete_id": "ath_0031",
+    "team_id": "team_national",
+    "membership_status_id": "active",
+
+    "discipline_category_id": "pistol",
+
+    "squad_id": "main",
+
+    "selection_reason_id": "national_ranking",
+    "notes": "",
+
+    "since": "2026-01-01",
+    "until": null,
+
+    "created_at": "2026-04-05 20:15:35.000",
+    "updated_at": "2026-04-05 20:15:35.000"
+  },
+  {
+    "id": "ntm_0032",
+
+    "athlete_id": "ath_0032",
+    "team_id": "team_national",
+    "membership_status_id": "active",
+
+    "discipline_category_id": "pistol",
+
+    "squad_id": "main",
+
+    "selection_reason_id": "national_ranking",
+    "notes": "",
+
+    "since": "2026-01-01",
+    "until": null,
+
+    "created_at": "2026-04-05 20:15:35.000",
+    "updated_at": "2026-04-05 20:15:35.000"
+  },
+  {
+    "id": "ntm_0033",
+
+    "athlete_id": "ath_0033",
+    "team_id": "team_national",
+    "membership_status_id": "active",
+
+    "discipline_category_id": "pistol",
+
+    "squad_id": "main",
+
+    "selection_reason_id": "national_ranking",
+    "notes": "",
+
+    "since": "2026-01-01",
+    "until": null,
+
+    "created_at": "2026-04-05 20:15:35.000",
+    "updated_at": "2026-04-05 20:15:35.000"
+  },
+  {
+    "id": "ntm_0034",
+
+    "athlete_id": "ath_0034",
+    "team_id": "team_junior",
+    "membership_status_id": "active",
+
+    "discipline_category_id": "pistol",
+
+    "squad_id": "main",
+
+    "selection_reason_id": "national_ranking",
+    "notes": "",
+
+    "since": "2026-01-01",
+    "until": null,
+
+    "created_at": "2026-04-05 20:15:35.000",
+    "updated_at": "2026-04-05 20:15:35.000"
+  },
+  {
+    "id": "ntm_0035",
+
+    "athlete_id": "ath_0035",
+    "team_id": "team_junior",
+    "membership_status_id": "active",
+
+    "discipline_category_id": "pistol",
+
+    "squad_id": "main",
+
+    "selection_reason_id": "national_ranking",
+    "notes": "",
+
+    "since": "2026-01-01",
+    "until": null,
+
+    "created_at": "2026-04-05 20:15:35.000",
+    "updated_at": "2026-04-05 20:15:35.000"
+  },
+  {
+    "id": "ntm_0036",
+
+    "athlete_id": "ath_0036",
+    "team_id": "team_junior",
+    "membership_status_id": "active",
+
+    "discipline_category_id": "pistol",
+
+    "squad_id": "main",
+
+    "selection_reason_id": "national_ranking",
+    "notes": "",
+
+    "since": "2026-01-01",
+    "until": null,
+
+    "created_at": "2026-04-05 20:15:35.000",
+    "updated_at": "2026-04-05 20:15:35.000"
+  },
+  {
+    "id": "ntm_0011",
+
+    "athlete_id": "ath_0011",
+    "team_id": "team_national",
+    "membership_status_id": "active",
+
+    "discipline_category_id": "rifle",
+
+    "squad_id": "main",
+
+    "selection_reason_id": "national_ranking",
+    "notes": "",
+
+    "since": "2026-01-01",
+    "until": null,
+
+    "created_at": "2026-04-18 14:49:10.000",
+    "updated_at": "2026-04-18 14:49:10.000"
+  },
+  {
+    "id": "ntm_0038",
+
+    "athlete_id": "ath_0038",
+    "team_id": "team_national",
+    "membership_status_id": "active",
+
+    "discipline_category_id": "rifle",
+
+    "squad_id": "main",
+
+    "selection_reason_id": "national_ranking",
+    "notes": "",
+
+    "since": "2026-01-01",
+    "until": null,
+
+    "created_at": "2026-04-18 14:49:10.000",
+    "updated_at": "2026-04-18 14:49:10.000"
+  },
+  {
+    "id": "ntm_0039",
+
+    "athlete_id": "ath_0039",
+    "team_id": "team_national",
+    "membership_status_id": "active",
+
+    "discipline_category_id": "rifle",
+
+    "squad_id": "main",
+
+    "selection_reason_id": "national_ranking",
+    "notes": "",
+
+    "since": "2026-01-01",
+    "until": null,
+
+    "created_at": "2026-04-18 14:49:10.000",
+    "updated_at": "2026-04-18 14:49:10.000"
+  },
+  {
+    "id": "ntm_0040",
+
+    "athlete_id": "ath_0040",
+    "team_id": "team_national",
+    "membership_status_id": "active",
+
+    "discipline_category_id": "rifle",
+
+    "squad_id": "main",
+
+    "selection_reason_id": "national_ranking",
+    "notes": "",
+
+    "since": "2026-01-01",
+    "until": null,
+
+    "created_at": "2026-04-18 14:49:10.000",
+    "updated_at": "2026-04-18 14:49:10.000"
+  },
+  {
+    "id": "ntm_0041",
+
+    "athlete_id": "ath_0041",
+    "team_id": "team_national",
+    "membership_status_id": "active",
+
+    "discipline_category_id": "rifle",
+
+    "squad_id": "main",
+
+    "selection_reason_id": "national_ranking",
+    "notes": "",
+
+    "since": "2026-01-01",
+    "until": null,
+
+    "created_at": "2026-04-18 14:49:10.000",
+    "updated_at": "2026-04-18 14:49:10.000"
+  },
+  {
+    "id": "ntm_0013",
+
+    "athlete_id": "ath_0013",
+    "team_id": "team_junior",
+    "membership_status_id": "active",
+
+    "discipline_category_id": "rifle",
+
+    "squad_id": "main",
+
+    "selection_reason_id": "national_ranking",
+    "notes": "",
+
+    "since": "2026-01-01",
+    "until": null,
+
+    "created_at": "2026-04-18 14:49:10.000",
+    "updated_at": "2026-04-18 14:49:10.000"
+  },
+  {
+    "id": "ntm_0043",
+
+    "athlete_id": "ath_0043",
+    "team_id": "team_junior",
+    "membership_status_id": "active",
+
+    "discipline_category_id": "rifle",
+
+    "squad_id": "main",
+
+    "selection_reason_id": "national_ranking",
+    "notes": "",
+
+    "since": "2026-01-01",
+    "until": null,
+
+    "created_at": "2026-04-18 14:49:10.000",
+    "updated_at": "2026-04-18 14:49:10.000"
+  },
+  {
+    "id": "ntm_0014",
+
+    "athlete_id": "ath_0014",
+    "team_id": "team_national",
+    "membership_status_id": "active",
+
+    "discipline_category_id": "skeet",
+
+    "squad_id": "main",
+
+    "selection_reason_id": "national_ranking",
+    "notes": "",
+
+    "since": "2026-01-01",
+    "until": null,
+
+    "created_at": "2026-04-18 14:49:10.000",
+    "updated_at": "2026-04-18 14:49:10.000"
+  },
+  {
+    "id": "ntm_0015",
+
+    "athlete_id": "ath_0015",
+    "team_id": "team_national",
+    "membership_status_id": "active",
+
+    "discipline_category_id": "skeet",
+
+    "squad_id": "main",
+
+    "selection_reason_id": "national_ranking",
+    "notes": "",
+
+    "since": "2026-01-01",
+    "until": null,
+
+    "created_at": "2026-04-18 14:49:10.000",
+    "updated_at": "2026-04-18 14:49:10.000"
+  },
+  {
+    "id": "ntm_0016",
+
+    "athlete_id": "ath_0016",
+    "team_id": "team_national",
+    "membership_status_id": "active",
+
+    "discipline_category_id": "skeet",
+
+    "squad_id": "main",
+
+    "selection_reason_id": "national_ranking",
+    "notes": "",
+
+    "since": "2026-01-01",
+    "until": null,
+
+    "created_at": "2026-04-18 14:49:10.000",
+    "updated_at": "2026-04-18 14:49:10.000"
+  },
+  {
+    "id": "ntm_0017",
+
+    "athlete_id": "ath_0017",
+    "team_id": "team_national",
+    "membership_status_id": "active",
+
+    "discipline_category_id": "skeet",
+
+    "squad_id": "main",
+
+    "selection_reason_id": "national_ranking",
+    "notes": "",
+
+    "since": "2026-01-01",
+    "until": null,
+
+    "created_at": "2026-04-18 14:49:10.000",
+    "updated_at": "2026-04-18 14:49:10.000"
+  },
+  {
+    "id": "ntm_0044",
+
+    "athlete_id": "ath_0044",
+    "team_id": "team_national",
+    "membership_status_id": "active",
+
+    "discipline_category_id": "skeet",
+
+    "squad_id": "main",
+
+    "selection_reason_id": "national_ranking",
+    "notes": "",
+
+    "since": "2026-01-01",
+    "until": null,
+
+    "created_at": "2026-04-18 14:49:10.000",
+    "updated_at": "2026-04-18 14:49:10.000"
+  },
+  {
+    "id": "ntm_0045",
+
+    "athlete_id": "ath_0045",
+    "team_id": "team_national",
+    "membership_status_id": "active",
+
+    "discipline_category_id": "skeet",
+
+    "squad_id": "main",
+
+    "selection_reason_id": "national_ranking",
+    "notes": "",
+
+    "since": "2026-01-01",
+    "until": null,
+
+    "created_at": "2026-04-18 14:49:10.000",
+    "updated_at": "2026-04-18 14:49:10.000"
+  },
+  {
+    "id": "ntm_0046",
+
+    "athlete_id": "ath_0046",
+    "team_id": "team_national",
+    "membership_status_id": "active",
+
+    "discipline_category_id": "skeet",
+
+    "squad_id": "main",
+
+    "selection_reason_id": "national_ranking",
+    "notes": "",
+
+    "since": "2026-01-01",
+    "until": null,
+
+    "created_at": "2026-04-18 14:49:10.000",
+    "updated_at": "2026-04-18 14:49:10.000"
+  },
+  {
+    "id": "ntm_0018",
+
+    "athlete_id": "ath_0018",
+    "team_id": "team_junior",
+    "membership_status_id": "active",
+
+    "discipline_category_id": "skeet",
+
+    "squad_id": "main",
+
+    "selection_reason_id": "national_ranking",
+    "notes": "",
+
+    "since": "2026-01-01",
+    "until": null,
+
+    "created_at": "2026-04-18 14:49:10.000",
+    "updated_at": "2026-04-18 14:49:10.000"
+  },
+  {
+    "id": "ntm_0019",
+
+    "athlete_id": "ath_0019",
+    "team_id": "team_junior",
+    "membership_status_id": "active",
+
+    "discipline_category_id": "skeet",
+
+    "squad_id": "main",
+
+    "selection_reason_id": "national_ranking",
+    "notes": "",
+
+    "since": "2026-01-01",
+    "until": null,
+
+    "created_at": "2026-04-18 14:49:10.000",
+    "updated_at": "2026-04-18 14:49:10.000"
+  },
+  {
+    "id": "ntm_0020",
+
+    "athlete_id": "ath_0020",
+    "team_id": "team_junior",
+    "membership_status_id": "active",
+
+    "discipline_category_id": "skeet",
+
+    "squad_id": "main",
+
+    "selection_reason_id": "national_ranking",
+    "notes": "",
+
+    "since": "2026-01-01",
+    "until": null,
+
+    "created_at": "2026-04-18 14:49:10.000",
+    "updated_at": "2026-04-18 14:49:10.000"
+  },
+  {
+    "id": "ntm_0050",
+
+    "athlete_id": "ath_0050",
+    "team_id": "team_junior",
+    "membership_status_id": "active",
+
+    "discipline_category_id": "skeet",
+
+    "squad_id": "main",
+
+    "selection_reason_id": "national_ranking",
+    "notes": "",
+
+    "since": "2026-01-01",
+    "until": null,
+
+    "created_at": "2026-04-18 14:49:10.000",
+    "updated_at": "2026-04-18 14:49:10.000"
+  },
+  {
+    "id": "ntm_0023",
+
+    "athlete_id": "ath_0023",
+    "team_id": "team_national",
+    "membership_status_id": "active",
+
+    "discipline_category_id": "trap",
+
+    "squad_id": "main",
+
+    "selection_reason_id": "national_ranking",
+    "notes": "",
+
+    "since": "2026-01-01",
+    "until": null,
+
+    "created_at": "2026-04-18 14:49:10.000",
+    "updated_at": "2026-04-18 14:49:10.000"
+  },
+  {
+    "id": "ntm_0024",
+
+    "athlete_id": "ath_0024",
+    "team_id": "team_national",
+    "membership_status_id": "active",
+
+    "discipline_category_id": "trap",
+
+    "squad_id": "main",
+
+    "selection_reason_id": "national_ranking",
+    "notes": "",
+
+    "since": "2026-01-01",
+    "until": null,
+
+    "created_at": "2026-04-18 14:49:10.000",
+    "updated_at": "2026-04-18 14:49:10.000"
+  },
+  {
+    "id": "ntm_0025",
+
+    "athlete_id": "ath_0025",
+    "team_id": "team_national",
+    "membership_status_id": "active",
+
+    "discipline_category_id": "trap",
+
+    "squad_id": "main",
+
+    "selection_reason_id": "national_ranking",
+    "notes": "",
+
+    "since": "2026-01-01",
+    "until": null,
+
+    "created_at": "2026-04-18 14:49:10.000",
+    "updated_at": "2026-04-18 14:49:10.000"
+  },
+  {
+    "id": "ntm_0026",
+
+    "athlete_id": "ath_0026",
+    "team_id": "team_national",
+    "membership_status_id": "active",
+
+    "discipline_category_id": "trap",
+
+    "squad_id": "main",
+
+    "selection_reason_id": "national_ranking",
+    "notes": "",
+
+    "since": "2026-01-01",
+    "until": null,
+
+    "created_at": "2026-04-18 14:49:10.000",
+    "updated_at": "2026-04-18 14:49:10.000"
+  },
+  {
+    "id": "ntm_0027",
+
+    "athlete_id": "ath_0027",
+    "team_id": "team_national",
+    "membership_status_id": "active",
+
+    "discipline_category_id": "trap",
+
+    "squad_id": "main",
+
+    "selection_reason_id": "national_ranking",
+    "notes": "",
+
+    "since": "2026-01-01",
+    "until": null,
+
+    "created_at": "2026-04-18 14:49:10.000",
+    "updated_at": "2026-04-18 14:49:10.000"
+  },
+  {
+    "id": "ntm_0049",
+
+    "athlete_id": "ath_0049",
+    "team_id": "team_national",
+    "membership_status_id": "active",
+
+    "discipline_category_id": "trap",
+
+    "squad_id": "main",
+
+    "selection_reason_id": "national_ranking",
+    "notes": "",
+
+    "since": "2026-01-01",
+    "until": null,
+
+    "created_at": "2026-04-18 14:49:10.000",
+    "updated_at": "2026-04-18 14:49:10.000"
+  },
+  {
+    "id": "ntm_0028",
+
+    "athlete_id": "ath_0028",
+    "team_id": "team_junior",
+    "membership_status_id": "active",
+
+    "discipline_category_id": "trap",
+
+    "squad_id": "main",
+
+    "selection_reason_id": "national_ranking",
+    "notes": "",
+
+    "since": "2026-01-01",
+    "until": null,
+
+    "created_at": "2026-04-18 14:49:10.000",
+    "updated_at": "2026-04-18 14:49:10.000"
+  },
+  {
+    "id": "ntm_0029",
+
+    "athlete_id": "ath_0029",
+    "team_id": "team_junior",
+    "membership_status_id": "active",
+
+    "discipline_category_id": "trap",
+
+    "squad_id": "main",
+
+    "selection_reason_id": "national_ranking",
+    "notes": "",
+
+    "since": "2026-01-01",
+    "until": null,
+
+    "created_at": "2026-04-18 14:49:10.000",
+    "updated_at": "2026-04-18 14:49:10.000"
+  },
+  {
+    "id": "ntm_0047",
+
+    "athlete_id": "ath_0047",
+    "team_id": "team_junior",
+    "membership_status_id": "active",
+
+    "discipline_category_id": "trap",
+
+    "squad_id": "main",
+
+    "selection_reason_id": "national_ranking",
+    "notes": "",
+
+    "since": "2026-01-01",
+    "until": null,
+
+    "created_at": "2026-04-18 14:49:10.000",
+    "updated_at": "2026-04-18 14:49:10.000"
+  }
+]
