@@ -9,6 +9,7 @@ function createAthleteCard(athlete) {
     fullname,
     country,
     residence,
+    main_discipline,
   } = athlete;
 
   const defaultUrl = "assets/images/athletes/defaults/avatar.png";
@@ -19,14 +20,14 @@ function createAthleteCard(athlete) {
                   <div class="team-card__thumbnail">
                     <img
                       class="team-card__image"
-                      src="${portrait.url ?? defaultUrl}"
-                      alt="${portrait.alt}"
+                      src="${portrait?.url ?? defaultUrl}"
+                      alt="Portrait of ${fullname}"
                       loading="lazy" />
 
                     <!-- Role Badge -->
                     <ul class="badges badges--top-right" aria-label="Team role">
                       <li class="badges__item badges__item--role">
-                        <a class="badges__link" href="/athletes/?discipline=pistol" data-discipline="pistol">Pistol</a>
+                        <a class="badges__link" href="athletes/?discipline=${main_discipline.slug}" data-discipline="${main_discipline.id}">${main_discipline.name}</a>
                       </li>
                     </ul>
 
@@ -35,7 +36,7 @@ function createAthleteCard(athlete) {
                       <li class="badges__item badges__item--country">
                         <a
                           class="badges__link"
-                          href="pages/athletes/?country=${country.slug}"
+                          href="athletes/?country=${country.slug}"
                           data-country="${country.id}"
                           aria-label="Filter by country: ${country.name}">
                           <svg class="badges__icon" width="43" height="32" aria-hidden="true">

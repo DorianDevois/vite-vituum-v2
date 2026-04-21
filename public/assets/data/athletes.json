@@ -86,10 +86,14 @@
         "flag": "assets/icons/flags/az.svg"
       }
     },
+    "main_discipline": {
+      "id": "pistol",
+      "slug": "pistol",
+      "name": "Pistol"
+    },
     "images": {
       "portrait": {
-        "url": "assets/images/athletes/lunev-ruslan/portrait.jpg",
-        "alt": "Portrait of Ruslan Lunev"
+        "url": "assets/images/athletes/lunev-ruslan/portrait.jpg"
       }
     }
   },
@@ -146,10 +150,14 @@
         "flag": "assets/icons/flags/az.svg"
       }
     },
+    "main_discipline": {
+      "id": "pistol",
+      "slug": "pistol",
+      "name": "Pistol"
+    },
     "images": {
       "portrait": {
-        "url": "assets/images/athletes/kalmikov-vladislav/portrait.jpg",
-        "alt": "Portrait of Kalmikov Vladislav"
+        "url": "assets/images/athletes/kalmikov-vladislav/portrait.jpg"
       }
     }
   },
@@ -206,10 +214,14 @@
         "flag": "assets/icons/flags/az.svg"
       }
     },
+    "main_discipline": {
+      "id": "pistol",
+      "slug": "pistol",
+      "name": "Pistol"
+    },
     "images": {
       "portrait": {
-        "url": "assets/images/athletes/musayev-haji/portrait.jpg",
-        "alt": "Portrait of Musayev Haji"
+        "url": "assets/images/athletes/musayev-haji/portrait.jpg"
       }
     }
   },
@@ -283,10 +295,14 @@
         "flag": "assets/icons/flags/az.svg"
       }
     },
+    "main_discipline": {
+      "id": "pistol",
+      "slug": "pistol",
+      "name": "Pistol"
+    },
     "images": {
       "portrait": {
-        "url": "assets/images/athletes/astanov-elvin/portrait.jpg",
-        "alt": "Portrait of Astanov Elvin"
+        "url": "assets/images/athletes/astanov-elvin/portrait.jpg"
       }
     }
   },
@@ -377,10 +393,14 @@
         "flag": "assets/icons/flags/az.svg"
       }
     },
+    "main_discipline": {
+      "id": "pistol",
+      "slug": "pistol",
+      "name": "Pistol"
+    },
     "images": {
       "portrait": {
-        "url": "assets/images/athletes/mammadov-rasul/portrait.jpg",
-        "alt": "Portrait of Mammadov Rasul"
+        "url": "assets/images/athletes/mammadov-rasul/portrait.jpg"
       }
     }
   },
@@ -436,10 +456,14 @@
         "flag": "assets/icons/flags/az.svg"
       }
     },
+    "main_discipline": {
+      "id": "pistol",
+      "slug": "pistol",
+      "name": "Pistol"
+    },
     "images": {
       "portrait": {
-        "url": "assets/images/athletes/garayev-imran/portrait.jpg",
-        "alt": "Portrait of Garayev Imran"
+        "url": "assets/images/athletes/garayev-imran/portrait.jpg"
       }
     }
   },
@@ -495,10 +519,14 @@
         "flag": "assets/icons/flags/az.svg"
       }
     },
+    "main_discipline": {
+      "id": "pistol",
+      "slug": "pistol",
+      "name": "Pistol"
+    },
     "images": {
       "portrait": {
-        "url": "assets/images/athletes/kerzhankin-oleg/portrait.jpg",
-        "alt": "Portrait of Kerzhankin Oleg"
+        "url": "assets/images/athletes/kerzhankin-oleg/portrait.jpg"
       }
     }
   },
@@ -554,10 +582,14 @@
         "flag": "assets/icons/flags/az.svg"
       }
     },
+    "main_discipline": {
+      "id": "pistol",
+      "slug": "pistol",
+      "name": "Pistol"
+    },
     "images": {
       "portrait": {
-        "url": "assets/images/athletes/huseynli-onur/portrait.jpg",
-        "alt": "Portrait of Huseynli Onur"
+        "url": "assets/images/athletes/huseynli-onur/portrait.jpg"
       }
     }
   },
@@ -613,10 +645,14 @@
         "flag": "assets/icons/flags/az.svg"
       }
     },
+    "main_discipline": {
+      "id": "rifle",
+      "slug": "rifle",
+      "name": "Rifle"
+    },
     "images": {
       "portrait": {
-        "url": "assets/images/athletes/khalilov-ramiz/portrait.jpg",
-        "alt": "Portrait of Khalilov Ramiz"
+        "url": "assets/images/athletes/khalilov-ramiz/portrait.jpg"
       }
     }
   },
@@ -672,10 +708,14 @@
         "flag": "assets/icons/flags/az.svg"
       }
     },
+    "main_discipline": {
+      "id": "rifle",
+      "slug": "rifle",
+      "name": "Rifle"
+    },
     "images": {
       "portrait": {
-        "url": "assets/images/athletes/tapdigli-uzeyir/portrait.jpg",
-        "alt": "Portrait of Tapdigli Uzeyir"
+        "url": "assets/images/athletes/tapdigli-uzeyir/portrait.jpg"
       }
     }
   },
@@ -731,10 +771,14 @@
         "flag": "assets/icons/flags/az.svg"
       }
     },
+    "main_discipline": {
+      "id": "rifle",
+      "slug": "rifle",
+      "name": "Rifle"
+    },
     "images": {
       "portrait": {
-        "url": "assets/images/athletes/sofiyev-zahid/portrait.jpg",
-        "alt": "Portrait of Sofiyev Zahid"
+        "url": "assets/images/athletes/sofiyev-zahid/portrait.jpg"
       }
     }
   },
@@ -824,10 +868,14 @@
         "flag": "assets/icons/flags/az.svg"
       }
     },
+    "main_discipline": {
+      "id": "skeet",
+      "slug": "skeet",
+      "name": "Skeet"
+    },
     "images": {
       "portrait": {
-        "url": "assets/images/athletes/aghazada-niyaz/portrait.jpg",
-        "alt": "Portrait of Aghazada Niyaz"
+        "url": "assets/images/athletes/aghazada-niyaz/portrait.jpg"
       }
     }
   },
@@ -917,10 +965,14 @@
         "flag": "assets/icons/flags/az.svg"
       }
     },
+    "main_discipline": {
+      "id": "skeet",
+      "slug": "skeet",
+      "name": "Skeet"
+    },
     "images": {
       "portrait": {
-        "url": "assets/images/athletes/gurbanov-fuad/portrait.jpg",
-        "alt": "Portrait of Gurbanov Fuad"
+        "url": "assets/images/athletes/gurbanov-fuad/portrait.jpg"
       }
     }
   },
@@ -976,10 +1028,14 @@
         "flag": "assets/icons/flags/az.svg"
       }
     },
+    "main_discipline": {
+      "id": "skeet",
+      "slug": "skeet",
+      "name": "Skeet"
+    },
     "images": {
       "portrait": {
-        "url": "assets/images/athletes/hasanov-javid/portrait.jpg",
-        "alt": "Portrait of Hasanov Javid"
+        "url": "assets/images/athletes/hasanov-javid/portrait.jpg"
       }
     }
   },
@@ -1035,10 +1091,14 @@
         "flag": "assets/icons/flags/az.svg"
       }
     },
+    "main_discipline": {
+      "id": "skeet",
+      "slug": "skeet",
+      "name": "Skeet"
+    },
     "images": {
       "portrait": {
-        "url": "assets/images/athletes/mustafayev-ali/portrait.jpg",
-        "alt": "Portrait of Mustafayev Ali"
+        "url": "assets/images/athletes/mustafayev-ali/portrait.jpg"
       }
     }
   },
@@ -1094,8 +1154,13 @@
         "flag": "assets/icons/flags/az.svg"
       }
     },
+    "main_discipline": {
+      "id": "skeet",
+      "slug": "skeet",
+      "name": "Skeet"
+    },
     "images": {
-      "portrait": "assets/images/athletes/defaults/avatar.png"
+      "portrait": null
     }
   },
   {
@@ -1150,8 +1215,13 @@
         "flag": "assets/icons/flags/az.svg"
       }
     },
+    "main_discipline": {
+      "id": "skeet",
+      "slug": "skeet",
+      "name": "Skeet"
+    },
     "images": {
-      "portrait": "assets/images/athletes/defaults/avatar.png"
+      "portrait": null
     }
   },
   {
@@ -1206,8 +1276,13 @@
         "flag": "assets/icons/flags/az.svg"
       }
     },
+    "main_discipline": {
+      "id": "skeet",
+      "slug": "skeet",
+      "name": "Skeet"
+    },
     "images": {
-      "portrait": "assets/images/athletes/defaults/avatar.png"
+      "portrait": null
     }
   },
   {
@@ -1262,10 +1337,14 @@
         "flag": "assets/icons/flags/az.svg"
       }
     },
+    "main_discipline": {
+      "id": "trap",
+      "slug": "trap",
+      "name": "Trap"
+    },
     "images": {
       "portrait": {
-        "url": "assets/images/athletes/huseynli-ali/portrait.jpg",
-        "alt": "Portrait of Huseynli Ali"
+        "url": "assets/images/athletes/huseynli-ali/portrait.jpg"
       }
     }
   },
@@ -1338,10 +1417,14 @@
         "flag": "assets/icons/flags/az.svg"
       }
     },
+    "main_discipline": {
+      "id": "trap",
+      "slug": "trap",
+      "name": "Trap"
+    },
     "images": {
       "portrait": {
-        "url": "assets/images/athletes/guliyev-alimirza/portrait.jpg",
-        "alt": "Portrait of Guliyev Alimirza"
+        "url": "assets/images/athletes/guliyev-alimirza/portrait.jpg"
       }
     }
   },
@@ -1397,10 +1480,14 @@
         "flag": "assets/icons/flags/az.svg"
       }
     },
+    "main_discipline": {
+      "id": "trap",
+      "slug": "trap",
+      "name": "Trap"
+    },
     "images": {
       "portrait": {
-        "url": "assets/images/athletes/mammadov-tamerlan/portrait.jpg",
-        "alt": "Portrait of Mammadov Tamerlan"
+        "url": "assets/images/athletes/mammadov-tamerlan/portrait.jpg"
       }
     }
   },
@@ -1456,10 +1543,14 @@
         "flag": "assets/icons/flags/az.svg"
       }
     },
+    "main_discipline": {
+      "id": "trap",
+      "slug": "trap",
+      "name": "Trap"
+    },
     "images": {
       "portrait": {
-        "url": "assets/images/athletes/aghazada-mirmomin/portrait.jpg",
-        "alt": "Portrait of Aghazada Mirmomin"
+        "url": "assets/images/athletes/aghazada-mirmomin/portrait.jpg"
       }
     }
   },
@@ -1515,10 +1606,14 @@
         "flag": "assets/icons/flags/az.svg"
       }
     },
+    "main_discipline": {
+      "id": "trap",
+      "slug": "trap",
+      "name": "Trap"
+    },
     "images": {
       "portrait": {
-        "url": "assets/images/athletes/mehdizade-sabir/portrait.jpg",
-        "alt": "Portrait of Mehdizade Sabir"
+        "url": "assets/images/athletes/mehdizade-sabir/portrait.jpg"
       }
     }
   },
@@ -1574,8 +1669,13 @@
         "flag": "assets/icons/flags/az.svg"
       }
     },
+    "main_discipline": {
+      "id": "trap",
+      "slug": "trap",
+      "name": "Trap"
+    },
     "images": {
-      "portrait": "assets/images/athletes/defaults/avatar.png"
+      "portrait": null
     }
   },
   {
@@ -1630,8 +1730,13 @@
         "flag": "assets/icons/flags/az.svg"
       }
     },
+    "main_discipline": {
+      "id": "trap",
+      "slug": "trap",
+      "name": "Trap"
+    },
     "images": {
-      "portrait": "assets/images/athletes/defaults/avatar.png"
+      "portrait": null
     }
   },
   {
@@ -1721,10 +1826,14 @@
         "flag": "assets/icons/flags/az.svg"
       }
     },
+    "main_discipline": {
+      "id": "pistol",
+      "slug": "pistol",
+      "name": "Pistol"
+    },
     "images": {
       "portrait": {
-        "url": "assets/images/athletes/nasirova-nigar/portrait.jpg",
-        "alt": "Portrait of Nasirova Nigar"
+        "url": "assets/images/athletes/nasirova-nigar/portrait.jpg"
       }
     }
   },
@@ -1815,10 +1924,14 @@
         "flag": "assets/icons/flags/az.svg"
       }
     },
+    "main_discipline": {
+      "id": "pistol",
+      "slug": "pistol",
+      "name": "Pistol"
+    },
     "images": {
       "portrait": {
-        "url": "assets/images/athletes/aliyeva-khanna/portrait.jpg",
-        "alt": "Portrait of Aliyeva Khanna"
+        "url": "assets/images/athletes/aliyeva-khanna/portrait.jpg"
       }
     }
   },
@@ -1909,10 +2022,14 @@
         "flag": "assets/icons/flags/az.svg"
       }
     },
+    "main_discipline": {
+      "id": "pistol",
+      "slug": "pistol",
+      "name": "Pistol"
+    },
     "images": {
       "portrait": {
-        "url": "assets/images/athletes/sultanova-zeynab/portrait.jpg",
-        "alt": "Portrait of Sultanova Zeynab"
+        "url": "assets/images/athletes/sultanova-zeynab/portrait.jpg"
       }
     }
   },
@@ -2003,10 +2120,14 @@
         "flag": "assets/icons/flags/az.svg"
       }
     },
+    "main_discipline": {
+      "id": "pistol",
+      "slug": "pistol",
+      "name": "Pistol"
+    },
     "images": {
       "portrait": {
-        "url": "assets/images/athletes/barkhalova-sofiya/portrait.jpg",
-        "alt": "Portrait of Barkhalova Sofiya"
+        "url": "assets/images/athletes/barkhalova-sofiya/portrait.jpg"
       }
     }
   },
@@ -2097,10 +2218,14 @@
         "flag": "assets/icons/flags/az.svg"
       }
     },
+    "main_discipline": {
+      "id": "pistol",
+      "slug": "pistol",
+      "name": "Pistol"
+    },
     "images": {
       "portrait": {
-        "url": "assets/images/athletes/aliyeva-leyli/portrait.jpg",
-        "alt": "Portrait of Aliyeva Leyli"
+        "url": "assets/images/athletes/aliyeva-leyli/portrait.jpg"
       }
     }
   },
@@ -2157,8 +2282,13 @@
         "flag": "assets/icons/flags/az.svg"
       }
     },
+    "main_discipline": {
+      "id": "pistol",
+      "slug": "pistol",
+      "name": "Pistol"
+    },
     "images": {
-      "portrait": "assets/images/athletes/defaults/avatar.png"
+      "portrait": null
     }
   },
   {
@@ -2214,10 +2344,14 @@
         "flag": "assets/icons/flags/az.svg"
       }
     },
+    "main_discipline": {
+      "id": "pistol",
+      "slug": "pistol",
+      "name": "Pistol"
+    },
     "images": {
       "portrait": {
-        "url": "assets/images/athletes/omarova-amina/portrait.jpg",
-        "alt": "Portrait of Omarova Amina"
+        "url": "assets/images/athletes/omarova-amina/portrait.jpg"
       }
     }
   },
@@ -2274,10 +2408,14 @@
         "flag": "assets/icons/flags/az.svg"
       }
     },
+    "main_discipline": {
+      "id": "rifle",
+      "slug": "rifle",
+      "name": "Rifle"
+    },
     "images": {
       "portrait": {
-        "url": "assets/images/athletes/aliyeva-nurana/portrait.jpg",
-        "alt": "Portrait of Aliyeva Nurana"
+        "url": "assets/images/athletes/aliyeva-nurana/portrait.jpg"
       }
     }
   },
@@ -2334,10 +2472,14 @@
         "flag": "assets/icons/flags/az.svg"
       }
     },
+    "main_discipline": {
+      "id": "rifle",
+      "slug": "rifle",
+      "name": "Rifle"
+    },
     "images": {
       "portrait": {
-        "url": "assets/images/athletes/bayramova-zhala/portrait.jpg",
-        "alt": "Portrait of Bayramova Zhala"
+        "url": "assets/images/athletes/bayramova-zhala/portrait.jpg"
       }
     }
   },
@@ -2394,10 +2536,14 @@
         "flag": "assets/icons/flags/az.svg"
       }
     },
+    "main_discipline": {
+      "id": "rifle",
+      "slug": "rifle",
+      "name": "Rifle"
+    },
     "images": {
       "portrait": {
-        "url": "assets/images/athletes/ramazanova-nigar/portrait.jpg",
-        "alt": "Portrait of Ramazanova Nigar"
+        "url": "assets/images/athletes/ramazanova-nigar/portrait.jpg"
       }
     }
   },
@@ -2454,10 +2600,14 @@
         "flag": "assets/icons/flags/az.svg"
       }
     },
+    "main_discipline": {
+      "id": "rifle",
+      "slug": "rifle",
+      "name": "Rifle"
+    },
     "images": {
       "portrait": {
-        "url": "assets/images/athletes/mahmudova-aynur/portrait.jpg",
-        "alt": "Portrait of Mahmudova Aynur"
+        "url": "assets/images/athletes/mahmudova-aynur/portrait.jpg"
       }
     }
   },
@@ -2514,8 +2664,13 @@
         "flag": "assets/icons/flags/az.svg"
       }
     },
+    "main_discipline": {
+      "id": "rifle",
+      "slug": "rifle",
+      "name": "Rifle"
+    },
     "images": {
-      "portrait": "assets/images/athletes/defaults/avatar.png"
+      "portrait": null
     }
   },
   {
@@ -2605,10 +2760,14 @@
         "flag": "assets/icons/flags/az.svg"
       }
     },
+    "main_discipline": {
+      "id": "skeet",
+      "slug": "skeet",
+      "name": "Skeet"
+    },
     "images": {
       "portrait": {
-        "url": "assets/images/athletes/jafarova-nurlana/portrait.jpg",
-        "alt": "Portrait of Jafarova Nurlana"
+        "url": "assets/images/athletes/jafarova-nurlana/portrait.jpg"
       }
     }
   },
@@ -2699,10 +2858,14 @@
         "flag": "assets/icons/flags/az.svg"
       }
     },
+    "main_discipline": {
+      "id": "skeet",
+      "slug": "skeet",
+      "name": "Skeet"
+    },
     "images": {
       "portrait": {
-        "url": "assets/images/athletes/meftakhetdinova-rigina/portrait.jpg",
-        "alt": "Portrait of Meftakhetdinova Rigina"
+        "url": "assets/images/athletes/meftakhetdinova-rigina/portrait.jpg"
       }
     }
   },
@@ -2793,10 +2956,14 @@
         "flag": "assets/icons/flags/az.svg"
       }
     },
+    "main_discipline": {
+      "id": "skeet",
+      "slug": "skeet",
+      "name": "Skeet"
+    },
     "images": {
       "portrait": {
-        "url": "assets/images/athletes/najafova-sevda/portrait.jpg",
-        "alt": "Portrait of Najafova Sevda"
+        "url": "assets/images/athletes/najafova-sevda/portrait.jpg"
       }
     }
   },
@@ -2853,8 +3020,13 @@
         "flag": "assets/icons/flags/az.svg"
       }
     },
+    "main_discipline": {
+      "id": "trap",
+      "slug": "trap",
+      "name": "Trap"
+    },
     "images": {
-      "portrait": "assets/images/athletes/defaults/avatar.png"
+      "portrait": null
     }
   },
   {
@@ -2910,10 +3082,14 @@
         "flag": "assets/icons/flags/az.svg"
       }
     },
+    "main_discipline": {
+      "id": "trap",
+      "slug": "trap",
+      "name": "Trap"
+    },
     "images": {
       "portrait": {
-        "url": "assets/images/athletes/jamalova-aydan/portrait.jpg",
-        "alt": "Portrait of Jamalova Aydan"
+        "url": "assets/images/athletes/jamalova-aydan/portrait.jpg"
       }
     }
   },
@@ -2970,10 +3146,14 @@
         "flag": "assets/icons/flags/az.svg"
       }
     },
+    "main_discipline": {
+      "id": "skeet",
+      "slug": "skeet",
+      "name": "Skeet"
+    },
     "images": {
       "portrait": {
-        "url": "assets/images/athletes/pashayeva-jamila/portrait.jpg",
-        "alt": "Portrait of Pashayeva Jamila"
+        "url": "assets/images/athletes/pashayeva-jamila/portrait.jpg"
       }
     }
   }

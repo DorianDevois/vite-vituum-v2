@@ -9,8 +9,22 @@ import Swiper from "swiper/bundle";
 import "swiper/css/bundle";
 
 const athletes = await fetchAthletes();
-// const teamMemberships = await fetchTeamMembers();
-// console.log(teamMemberships);
+const pistolTeam = athletes.filter(
+  (athlete) =>
+    athlete.role.id === "athlete" && athlete.main_discipline.id === "pistol",
+);
+const rifleTeam = athletes.filter(
+  (athlete) =>
+    athlete.role.id === "athlete" && athlete.main_discipline.id === "rifle",
+);
+const skeetTeam = athletes.filter(
+  (athlete) =>
+    athlete.role.id === "athlete" && athlete.main_discipline.id === "skeet",
+);
+const trapTeam = athletes.filter(
+  (athlete) =>
+    athlete.role.id === "athlete" && athlete.main_discipline.id === "trap",
+);
 
 const refs = {
   searchInput: document.querySelector(".js-athlete-search > .search__input"),
@@ -23,114 +37,6 @@ const refs = {
   trapContainer: document.querySelector(".js-trap-container"),
 };
 
-const pistolSwiperOptions = {
-  slidesPerView: 1,
-  spaceBetween: 20,
-  loop: true,
-
-  pagination: {
-    el: ".pistol-swiper-pagination",
-    clickable: true,
-    dynamicBullets: true,
-  },
-
-  breakpoints: {
-    576: {
-      slidesPerView: 2,
-    },
-    768: {
-      slidesPerView: 3,
-    },
-    1024: {
-      slidesPerView: 4,
-    },
-    1440: {
-      slidesPerView: 5,
-    },
-  },
-};
-
-const rifleSwiperOptions = {
-  slidesPerView: 1,
-  spaceBetween: 20,
-  loop: true,
-
-  pagination: {
-    el: ".rifle-swiper-pagination",
-    clickable: true,
-    dynamicBullets: true,
-  },
-
-  breakpoints: {
-    576: {
-      slidesPerView: 2,
-    },
-    768: {
-      slidesPerView: 3,
-    },
-    1024: {
-      slidesPerView: 4,
-    },
-    1440: {
-      slidesPerView: 5,
-    },
-  },
-};
-
-const skeetSwiperOptions = {
-  slidesPerView: 1,
-  spaceBetween: 20,
-  loop: true,
-
-  pagination: {
-    el: ".skeet-swiper-pagination",
-    clickable: true,
-    dynamicBullets: true,
-  },
-
-  breakpoints: {
-    576: {
-      slidesPerView: 2,
-    },
-    768: {
-      slidesPerView: 3,
-    },
-    1024: {
-      slidesPerView: 4,
-    },
-    1440: {
-      slidesPerView: 5,
-    },
-  },
-};
-
-const trapSwiperOptions = {
-  slidesPerView: 1,
-  spaceBetween: 20,
-  loop: true,
-
-  pagination: {
-    el: ".trap-swiper-pagination",
-    clickable: true,
-    dynamicBullets: true,
-  },
-
-  breakpoints: {
-    576: {
-      slidesPerView: 2,
-    },
-    768: {
-      slidesPerView: 3,
-    },
-    1024: {
-      slidesPerView: 4,
-    },
-    1440: {
-      slidesPerView: 5,
-    },
-  },
-};
-
 export function initAthletesPage() {
   console.log("Athletes page init");
 
@@ -139,23 +45,131 @@ export function initAthletesPage() {
 
   refs.pistolContainer.insertAdjacentHTML(
     "beforeend",
-    createSwiperAthleteCardList(athletes),
+    createSwiperAthleteCardList(pistolTeam),
   );
 
   refs.rifleContainer.insertAdjacentHTML(
     "beforeend",
-    createSwiperAthleteCardList(athletes),
+    createSwiperAthleteCardList(rifleTeam),
   );
 
   refs.skeetContainer.insertAdjacentHTML(
     "beforeend",
-    createSwiperAthleteCardList(athletes),
+    createSwiperAthleteCardList(skeetTeam),
   );
 
   refs.trapContainer.insertAdjacentHTML(
     "beforeend",
-    createSwiperAthleteCardList(athletes),
+    createSwiperAthleteCardList(trapTeam),
   );
+
+  const pistolSwiperOptions = {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    loop: true,
+
+    pagination: {
+      el: ".pistol-swiper-pagination",
+      clickable: true,
+      dynamicBullets: true,
+    },
+
+    breakpoints: {
+      576: {
+        slidesPerView: 2,
+      },
+      768: {
+        slidesPerView: 3,
+      },
+      1024: {
+        slidesPerView: 4,
+      },
+      1440: {
+        slidesPerView: 5,
+      },
+    },
+  };
+
+  const rifleSwiperOptions = {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    loop: true,
+
+    pagination: {
+      el: ".rifle-swiper-pagination",
+      clickable: true,
+      dynamicBullets: true,
+    },
+
+    breakpoints: {
+      576: {
+        slidesPerView: 2,
+      },
+      768: {
+        slidesPerView: 3,
+      },
+      1024: {
+        slidesPerView: 4,
+      },
+      1440: {
+        slidesPerView: 5,
+      },
+    },
+  };
+
+  const skeetSwiperOptions = {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    loop: true,
+
+    pagination: {
+      el: ".skeet-swiper-pagination",
+      clickable: true,
+      dynamicBullets: true,
+    },
+
+    breakpoints: {
+      576: {
+        slidesPerView: 2,
+      },
+      768: {
+        slidesPerView: 3,
+      },
+      1024: {
+        slidesPerView: 4,
+      },
+      1440: {
+        slidesPerView: 5,
+      },
+    },
+  };
+
+  const trapSwiperOptions = {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    loop: true,
+
+    pagination: {
+      el: ".trap-swiper-pagination",
+      clickable: true,
+      dynamicBullets: true,
+    },
+
+    breakpoints: {
+      576: {
+        slidesPerView: 2,
+      },
+      768: {
+        slidesPerView: 3,
+      },
+      1024: {
+        slidesPerView: 4,
+      },
+      1440: {
+        slidesPerView: 5,
+      },
+    },
+  };
 
   const pistolSwiper = new Swiper(".pistolSwiper", pistolSwiperOptions);
   const rifleSwiper = new Swiper(".rifleSwiper", rifleSwiperOptions);

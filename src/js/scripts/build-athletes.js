@@ -13,10 +13,12 @@ import {
   resolve,
   resolveCityDeep,
   resolveCountryDeep,
+  resolveMainDiscipline,
   resolvePersonPortrait,
 } from "../services/data-resolver.js";
 import { regionDTO, countryDTO, cityDTO } from "../mappers/geo.mapper.js";
 import { roleDTO, genderDTO } from "../mappers/user.mapper.js";
+import { portraitDTO } from "../mappers/image.mapper.js";
 
 // Папка з сирими даними
 const SRC = "src/database/raw";
@@ -45,6 +47,10 @@ const paths = {
 const dependencies = {
   media: path.join(ENTITIES, "media.json"),
   mediaLinks: path.join(RELATIONS, "media-links.json"),
+  primaryDisciplines: path.join(
+    RELATIONS,
+    "athlete-primary-discipline.temp.json",
+  ),
   regions: path.join(REFERENCE, "regions.json"),
   countries: path.join(REFERENCE, "countries.json"),
   cities: path.join(REFERENCE, "cities.json"),
@@ -79,6 +85,7 @@ function buildAthletes() {
 
   // Парсимо массив зв'язків між сутностями та медиа-файлами.
   const mediaLinks = readJSON(dependencies.mediaLinks);
+  const primaryDisciplines = readJSON(dependencies.primaryDisciplines);
 
   /**
    * 3️⃣ Валідація базових даних
@@ -113,6 +120,11 @@ function buildAthletes() {
     const hometown = resolveCityDeep(maps, person.hometown_id, person.id);
     const residence = resolveCityDeep(maps, person.residence_id, person.id);
 
+    const mainDiscipline = resolveMainDiscipline({
+      personId: person.id,
+      payload: primaryDisciplines,
+    });
+
     const portrait = resolvePersonPortrait({
       mediaMap: maps.media,
       personId: person.id,
@@ -140,8 +152,10 @@ function buildAthletes() {
       hometown: cityDTO(hometown),
       residence: cityDTO(residence),
 
+      main_discipline: mainDiscipline,
+
       images: {
-        portrait: portrait ?? "assets/images/athletes/defaults/avatar.png",
+        portrait: portraitDTO(portrait),
       },
     };
   });

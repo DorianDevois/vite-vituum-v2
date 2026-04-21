@@ -108,4 +108,24 @@ function resolvePersonPortrait({ mediaMap, personId, entityMedia }) {
   return mediaMap[relation.media_id] ?? null;
 }
 
-export { resolve, resolveCityDeep, resolveCountryDeep, resolvePersonPortrait };
+/**
+ * Находит основную дисциплину спортсмена на основе данных из payload.
+ *
+ * @param {Object} options - Параметры функции.
+ * @param {number|string} options.personId - Уникальный идентификатор спортсмена.
+ * @param {Array<Object>} options.payload - Массив объектов со связями атлетов и дисциплин.
+ *
+ * @returns {string|null} Название дисциплины или null, если связь не найдена.
+ */
+function resolveMainDiscipline({ personId, payload }) {
+  const relation = payload.find((rel) => rel.athlete_id === personId);
+  return relation ? relation.discipline : null;
+}
+
+export {
+  resolve,
+  resolveCityDeep,
+  resolveCountryDeep,
+  resolvePersonPortrait,
+  resolveMainDiscipline,
+};

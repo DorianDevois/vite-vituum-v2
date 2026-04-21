@@ -3,14 +3,20 @@
     "athlete_id": "ath_0001",
     "event_id": "10m_air_pistol_men",
 
-    "level": "primary",
-    "is_active": true
+    "is_primary": true,
+    "is_active": true,
+
+    "created_at": "",
+    "updated_at": ""
   },
   {
     "athlete_id": "ath_0001",
     "event_id": "10m_air_pistol_mixed",
 
-    "level": "secondary",
-    "is_active": true
+    "is_primary": false,
+    "is_active": true,
+
+    "created_at": "",
+    "updated_at": ""
   }
 ]
