@@ -78,5 +78,21 @@
 
     "created_at": "",
     "updated_at": ""
+  },
+  {
+    "id": "cover",
+    "code": "cover",
+    "name": "Cover Image",
+    "description": "",
+
+    "aspect_ratio": "16:9",
+    "recommended_width": 1200,
+    "recommended_height": 675,
+
+    "sort_order": 6,
+    "is_active": true,
+
+    "created_at": "",
+    "updated_at": ""
   }
 ]

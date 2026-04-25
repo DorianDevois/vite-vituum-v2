@@ -12,9 +12,9 @@
     "updated_at": ""
   },
   {
-    "id": "news",
-    "code": "news",
-    "name": "News",
+    "id": "article",
+    "code": "article",
+    "name": "Article",
 
     "sort_order": 2,
     "is_active": true,

@@ -1,4 +1,4 @@
-.slider-container {
+.hero-slider-container {
   position: relative;
   width: 100%;
   height: calc(100vh - var(--page-header-height));
@@ -6,7 +6,7 @@
   // overflow: hidden;
 }
 
-.slider-wrapper .slider-item {
+.hero-slider-wrapper .hero-slider-item {
   position: relative;
   display: flex;
 
@@ -22,7 +22,7 @@
   }
 }
 
-.slider-wrapper .slider-item::before {
+.hero-slider-wrapper .hero-slider-item::before {
   content: "";
   position: absolute;
   z-index: var(--z-slider);
@@ -38,23 +38,23 @@
   filter: grayscale(20%);
 }
 
-.slider-wrapper .slider-item:nth-child(2)::before {
+.hero-slider-wrapper .hero-slider-item:nth-child(2)::before {
   background-image: url("/assets/images/slider/air-rifle-hd.jpg");
 }
 
-.slider-wrapper .slider-item:nth-child(3)::before {
+.hero-slider-wrapper .hero-slider-item:nth-child(3)::before {
   background-image: url("/assets/images/slider/skeet-hd.jpg");
 }
 
-.slider-wrapper .slider-item:nth-child(4)::before {
+.hero-slider-wrapper .hero-slider-item:nth-child(4)::before {
   background-image: url("/assets/images/slider/trap-hd.jpg");
 }
 
-.slider-wrapper .slider-item:nth-child(5)::before {
+.hero-slider-wrapper .hero-slider-item:nth-child(5)::before {
   background-image: url("/assets/images/slider/sporting-hd.jpg");
 }
 
-.slider-wrapper .slider-item .slider-content {
+.hero-slider-wrapper .hero-slider-item .hero-slider-content {
   position: relative;
   z-index: var(--z-slider);
 
@@ -84,7 +84,7 @@
   }
 }
 
-.slider-item.swiper-slide-active .slider-content {
+.hero-slider-item.swiper-slide-active .hero-slider-content {
   animation: animate_opacity 800ms 600ms linear forwards;
 }
 
@@ -94,7 +94,7 @@
   }
 }
 
-.slider-wrapper .slider-item .slider-content > * {
+.hero-slider-wrapper .hero-slider-item .hero-slider-content > * {
   max-width: 35%;
 
   @media (max-width: 1023.98px) {
@@ -106,7 +106,7 @@
   }
 }
 
-.slider-item .slider-content .slider-subtitle {
+.hero-slider-item .hero-slider-content .hero-slider-subtitle {
   font-size: 1rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -116,7 +116,7 @@
   transform: translateY(60%);
 }
 
-.slider-item .slider-content .slider-title {
+.hero-slider-item .hero-slider-content .hero-slider-title {
   font-size: 2.5rem;
   font-weight: 900;
   line-height: 1.2;
@@ -126,7 +126,8 @@
   transform: translateY(60%);
 }
 
-.slider-item.swiper-slide-active :where(.slider-subtitle, .slider-title) {
+.hero-slider-item.swiper-slide-active
+  :where(.hero-slider-subtitle, .hero-slider-title) {
   animation: animate_text 600ms 600ms linear forwards;
 }
 
@@ -137,14 +138,14 @@
   }
 }
 
-.slider-item .slider-content .slider-description {
+.hero-slider-item .hero-slider-content .hero-slider-description {
   margin-top: 1rem;
 
   opacity: 0;
   transform: translateY(60%);
 }
 
-.slider-item.swiper-slide-active .slider-description {
+.hero-slider-item.swiper-slide-active .hero-slider-description {
   animation: animate_text 600ms 1000ms linear forwards;
 }
 
@@ -155,7 +156,7 @@
   }
 }
 
-.slider-item .slider-content .slider-button {
+.hero-slider-item .hero-slider-content .hero-slider-button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -185,19 +186,19 @@
 
   &:hover {
     color: #000;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.8);
   }
 }
 
-.slider-item .slider-content .slider-button span {
+.hero-slider-item .hero-slider-content .hero-slider-button span {
   opacity: 0;
 }
 
-.slider-item.swiper-slide-active .slider-button span {
+.hero-slider-item.swiper-slide-active .hero-slider-button span {
   animation: animate_opacity 600ms 1600ms linear forwards;
 }
 
-.slider-item.swiper-slide-active .slider-button {
+.hero-slider-item.swiper-slide-active .hero-slider-button {
   animation: animate_button 600ms 1300ms linear forwards;
 }
 
@@ -208,7 +209,7 @@
   }
 }
 
-.slider-container .slider-controls {
+.hero-slider-container .hero-slider-controls {
   position: absolute;
   bottom: 45px;
   z-index: 20;
@@ -220,7 +221,7 @@
 
 // Значення padding 20(px) використовується у функції updatePagination
 // для підрахунку значення для translateX()
-.slider-controls .slider-pagination {
+.hero-slider-controls .hero-slider-pagination {
   position: relative;
   display: flex;
   margin: 0 auto;
@@ -230,7 +231,7 @@
   list-style: none;
 }
 
-.slider-pagination .slider-indicator {
+.hero-slider-pagination .hero-slider-indicator {
   position: absolute;
   bottom: 0;
   width: 300px;
@@ -239,7 +240,7 @@
   transition: transform 250ms ease-in-out;
 }
 
-.slider-pagination .slider-tab {
+.hero-slider-pagination .hero-slider-tab {
   padding-block: var(--space-lg);
   padding-inline: var(--space-2xl);
   padding: 20px 30px;
@@ -250,7 +251,7 @@
   font-size: 0.85rem;
 }
 
-.slider-navigation button {
+.hero-slider-navigation button {
   position: absolute;
   top: 50%;
   z-index: 20;
@@ -294,18 +295,18 @@
   }
 }
 
-.slider-navigation button.swiper-button-disabled {
+.hero-slider-navigation button.swiper-button-disabled {
   display: none;
 }
 
-.slider-navigation button#slide-prev {
+.hero-slider-navigation button#hero-slide-prev {
   left: 20px;
 }
 
-.slider-navigation button#slide-next {
+.hero-slider-navigation button#hero-slide-next {
   right: 20px;
 }
 
-.slider-navigation button svg {
+.hero-slider-navigation button svg {
   fill: currentColor;
 }

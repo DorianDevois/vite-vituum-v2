@@ -7,8 +7,10 @@
   position: absolute;
 
   display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-sm);
+  flex-direction: column;
+  gap: var(--space-xs);
+
+  line-height: 1;
 
   &--top-left {
     top: var(--space-md);
@@ -37,13 +39,12 @@
   justify-content: center;
 
   padding-block: var(--space-xs);
-  padding-inline: var(--space-md);
+  padding-inline: var(--space-sm);
 
-  border: 1px solid transparent;
   border-radius: var(--radius-full);
 
   font-size: var(--font-size-xs);
-  font-weight: var(--font-weight-medium);
+  font-weight: 500;
   line-height: 1;
   white-space: nowrap;
   color: var(--badge-color, var(--color-text-inverse));
@@ -60,12 +61,12 @@
   &:hover,
   &:focus {
     color: var(--color-text-inverse);
-    box-shadow: var(--shadow-box-lg);
+    box-shadow: var(--shadow-box-md);
 
     text-decoration: underline;
   }
 
-  .badges__item--country & {
+  .badges__item--flag & {
     padding: 0;
 
     border: none;
@@ -89,8 +90,8 @@
   }
 
   &[data-status="completed"] {
-    background-color: #d4edda;
-    color: #155724;
+    background-color: rgb(241, 252, 202);
+    color: #715604;
   }
 
   &[data-status="cancelled"] {
@@ -98,10 +99,86 @@
     color: #721c24;
   }
 
+  &[data-discipline="pistol"] {
+    background-color: #2e2f42;
+    color: #ffffff;
+    background-image: linear-gradient(
+      to right bottom,
+      #8bf180,
+      #133f61,
+      #56d2f5
+    );
+  }
+
+  &[data-discipline="rifle"] {
+    background-color: #2e2f42;
+    color: #ffffff;
+    background-image: linear-gradient(
+      to right bottom,
+      #ef8888,
+      #0e63b3,
+      #a0cd9c
+    );
+  }
+
+  &[data-discipline="skeet"] {
+    background-color: #2e2f42;
+    color: #ffffff;
+    background-image: linear-gradient(
+      to right bottom,
+      #88a3ef,
+      #93730c,
+      #9ccd9e
+    );
+  }
+
+  &[data-discipline="trap"] {
+    background-color: #2e2f42;
+    color: #ffffff;
+    background-image: linear-gradient(
+      to right bottom,
+      #7597fb,
+      #6e4485,
+      #f4b98e
+    );
+  }
+
+  &[data-age-category="senior"] {
+    background-color: #2e2f42;
+    color: #ffffff;
+    // background-image: linear-gradient(
+    //   to right bottom,
+    //   #b6b27e,
+    //   #715604,
+    //   #383946
+    // );
+  }
+
+  &[data-age-category="junior"] {
+    background-color: #2e2f42;
+    color: #ffffff;
+    // background-image: linear-gradient(
+    //   to right bottom,
+    //   #355a37,
+    //   var(--color-brand-green),
+    //   #2e2f42
+    // );
+  }
+
   /* Badge Types */
   &[data-type="world-cup"] {
-    background-color: #fff3cd;
-    color: #856404;
+    background-color: #d8f9d9;
+    color: #06740d;
+  }
+
+  &[data-type="olympic"] {
+    background-color: #af9a39;
+    color: #ffffff;
+  }
+
+  &[data-type="national"] {
+    background-color: #cddbff;
+    color: #0a414b;
   }
 
   &[data-type="world-championship"] {
@@ -119,7 +196,7 @@
 .badges__icon {
   width: var(--badge-icon-size, auto);
 
-  .badges__item--country & {
-    --badge-icon-size: 2.5rem;
+  .badges__item--flag & {
+    --badge-icon-size: 2rem;
   }
 }

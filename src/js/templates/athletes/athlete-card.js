@@ -33,7 +33,7 @@ function createAthleteCard(athlete) {
 
                     <!-- Country Badge -->
                     <ul class="badges badges--top-left" aria-label="Country badge">
-                      <li class="badges__item badges__item--country">
+                      <li class="badges__item badges__item--flag">
                         <a
                           class="badges__link"
                           href="athletes/?country=${country.slug}"

@@ -24,16 +24,16 @@ function createAthleteCard(athlete) {
                       alt="Portrait of ${fullname}"
                       loading="lazy" />
 
-                    <!-- Role Badge -->
-                    <ul class="badges badges--top-right" aria-label="Team role">
-                      <li class="badges__item badges__item--role">
+                    <!-- Discipline Badge -->
+                    <ul class="badges badges--top-right" aria-label="Shooting discipline">
+                      <li class="badges__item">
                         <a class="badges__link" href="athletes/?discipline=${main_discipline.slug}" data-discipline="${main_discipline.id}">${main_discipline.name}</a>
                       </li>
                     </ul>
 
                     <!-- Country Badge -->
                     <ul class="badges badges--top-left" aria-label="Country badge">
-                      <li class="badges__item badges__item--country">
+                      <li class="badges__item badges__item--flag">
                         <a
                           class="badges__link"
                           href="athletes/?country=${country.slug}"
@@ -46,6 +46,16 @@ function createAthleteCard(athlete) {
                       </li>
                     </ul>
                   </div>
+
+                <p class="team-card__category">
+                  <a
+                    class="link"
+                    href="athletes/?category=athlete"
+                    data-team-category="athlete"
+                  >
+                    Athlete
+                  </a>
+                </p>
 
                   <!-- CONTENT -->
                   <div class="team-card__content">

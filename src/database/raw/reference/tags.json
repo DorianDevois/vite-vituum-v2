@@ -1,0 +1,161 @@
+[
+  {
+    "id": "world_cup",
+    "name": "World Cup",
+    "slug": "world-cup",
+
+    "group_id": "competition",
+    "description": "ISSF World Cup competitions",
+
+    "sort_order": 1,
+    "is_active": true
+  },
+  {
+    "id": "european_championship",
+    "name": "European Championship",
+    "slug": "european-championship",
+
+    "group": "competition",
+    "description": "European level championships",
+
+    "sort_order": 2,
+    "is_active": true
+  },
+  {
+    "id": "olympics",
+    "name": "Olympics",
+    "slug": "olympics",
+
+    "group": "competition",
+    "description": "Olympic Games",
+
+    "sort_order": 3,
+    "is_active": true
+  },
+
+  {
+    "id": "baku",
+    "name": "Baku",
+    "slug": "baku",
+
+    "group": "location",
+    "description": "Events held in Baku",
+
+    "sort_order": 10,
+    "is_active": true
+  },
+  {
+    "id": "azerbaijan",
+    "name": "Azerbaijan",
+    "slug": "azerbaijan",
+
+    "group": "location",
+    "description": "National level content",
+
+    "sort_order": 11,
+    "is_active": true
+  },
+
+  {
+    "id": "pistol",
+    "name": "Pistol",
+    "slug": "pistol",
+
+    "group": "discipline",
+    "description": "Pistol shooting discipline",
+
+    "sort_order": 20,
+    "is_active": true
+  },
+  {
+    "id": "rifle",
+    "name": "Rifle",
+    "slug": "rifle",
+
+    "group": "discipline",
+    "description": "Rifle shooting discipline",
+
+    "sort_order": 21,
+    "is_active": true
+  },
+  {
+    "id": "shotgun",
+    "name": "Shotgun",
+    "slug": "shotgun",
+
+    "group": "discipline",
+    "description": "Shotgun shooting discipline",
+
+    "sort_order": 22,
+    "is_active": true
+  },
+
+  {
+    "id": "gold_medal",
+    "name": "Gold Medal",
+    "slug": "gold-medal",
+
+    "group": "achievement",
+    "description": "Gold medal achievement",
+
+    "sort_order": 30,
+    "is_active": true
+  },
+  {
+    "id": "record",
+    "name": "Record",
+    "slug": "record",
+
+    "group": "achievement",
+    "description": "Record performance",
+
+    "sort_order": 31,
+    "is_active": true
+  },
+
+  {
+    "id": "junior",
+    "name": "Junior",
+    "slug": "junior",
+
+    "group": "age",
+    "description": "Junior category",
+
+    "sort_order": 40,
+    "is_active": true
+  },
+  {
+    "id": "youth",
+    "name": "Youth",
+    "slug": "youth",
+
+    "group": "age",
+    "description": "Youth category",
+
+    "sort_order": 41,
+    "is_active": true
+  },
+
+  {
+    "id": "training",
+    "name": "Training",
+    "slug": "training",
+
+    "group": "content",
+    "description": "Training and preparation",
+
+    "sort_order": 50,
+    "is_active": true
+  },
+  {
+    "id": "interview",
+    "name": "Interview",
+    "slug": "interview",
+
+    "group": "content",
+    "description": "Interview content",
+
+    "sort_order": 51,
+    "is_active": true
+  }
+]

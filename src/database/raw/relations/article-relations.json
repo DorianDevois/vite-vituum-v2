@@ -1,0 +1,23 @@
+[
+  {
+    "id": "art_rel_0001",
+
+    "article_id": "art_0001",
+
+    "entity_id": "ath_0001",
+    "entity_type": "person",
+
+    "relation_type_id": "mentioned",
+
+    "sort_order": 1,
+    "is_active": true,
+
+    "created_at": "",
+    "updated_at": ""
+  },
+  {
+    "article_id": "art_0001",
+    "entity_type": "person",
+    "entity_id": "ath_0001"
+  }
+]

@@ -62,11 +62,11 @@
   --color-border-dark: var(--deep-indigo);
 
   // Overlays
-  --color-bg-overlay-black: var(--black);
+  --color-bg-overlay-black: rgba(0, 0, 0, 0.4);
   --color-bg-overlay-white: var(--white);
 
   --color-bg-overlay-light: var(--white-smoke);
-  --color-bg-overlay-dark: var(--deep-indigo);
+  --color-bg-overlay-dark: rgba(46, 47, 66, 0.8);
 
   // --color-gray-100: #f5f5f5;
   // --color-gray-200: #e5e5e5;
