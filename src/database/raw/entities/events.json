@@ -102,7 +102,40 @@
     "created_at": "",
     "updated_at": ""
   },
+  {
+    "id": "25m_rapid_fire_pistol_men",
+    "slug": "25m-rapid-fire-pistol-men",
+    "name": "25m Rapid Fire Pistol Men",
+    "code": "25RFPM",
+    "discipline_id": "25m_rapid_fire_pistol",
+    "gender_id": "male",
+    "format_id": "individual",
 
+    "is_olympic": true,
+
+    "is_active": true,
+    "sort_order": 13,
+
+    "created_at": "",
+    "updated_at": ""
+  },
+  {
+    "id": "25m_sport_pistol_women",
+    "slug": "25m-sport-pistol-women",
+    "name": "25m Sport Pistol Women",
+    "code": "25SPW",
+    "discipline_id": "25m_sport_pistol",
+    "gender_id": "female",
+    "format_id": "individual",
+
+    "is_olympic": true,
+
+    "is_active": true,
+    "sort_order": 14,
+
+    "created_at": "",
+    "updated_at": ""
+  },
   {
     "id": "trap_men",
     "slug": "trap-men",

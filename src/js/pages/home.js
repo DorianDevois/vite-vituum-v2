@@ -5,6 +5,7 @@ import { initHeroSlider } from "../modules/hero-slider/hero-slider.js";
 import { initTeamSlider } from "../modules/team-slider/team-slider.js";
 import { initDisciplinesSlider } from "../modules/disciplines-slider/disciplines-slider.js";
 import { initCompetitionsSlider } from "../modules/competitions-slider/competitions-slider.js";
+import { initRankingSlider } from "../modules/ranking-slider/ranking-slider.js";
 import { initNewsSlider } from "../modules/news-slider/news-slider.js";
 import { initPartnersSlider } from "../modules/partners-slider/partners-slider.js";
 
@@ -27,6 +28,7 @@ export function initHomePage() {
   initTeamSlider();
   initDisciplinesSlider();
   initCompetitionsSlider();
+  initRankingSlider();
   initNewsSlider();
   initPartnersSlider();
 }

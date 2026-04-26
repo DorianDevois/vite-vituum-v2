@@ -1,0 +1,195 @@
+.ranking-card {
+  // flex: 1 1 280px; /* адаптивна ширина */
+  background: var(--color-bg-secondary);
+  // border-radius: 16px;
+}
+
+.ranking-card__header {
+  display: flex;
+  justify-content: space-between;
+  padding-block: var(--space-xs);
+  padding-inline: var(--space-lg);
+
+  // border-radius: var(--radius-full);
+
+  border-top-left-radius: var(--radius-md);
+  border-top-right-radius: var(--radius-md);
+
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  color: var(--color-text-inverse);
+
+  background-color: var(--color-bg-dark);
+  background-image: linear-gradient(
+    to right,
+    var(--color-brand-blue),
+    var(--color-brand-red),
+    var(--color-brand-green)
+  );
+}
+
+.ranking-card__standings {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
+
+  padding-block: 12px;
+  padding-inline: 12px;
+}
+
+.standing {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+
+  padding-block: 4px;
+  padding-inline: 6px;
+  border-radius: var(--radius-full);
+
+  font-size: var(--font-size-sm);
+
+  background-color: var(--color-bg-primary);
+  background-image: linear-gradient(
+    to left bottom,
+    rgb(205, 232, 255),
+    rgba(154, 227, 238, 0.3),
+    rgb(225, 225, 255)
+  );
+
+  &--gold {
+    background-image: linear-gradient(
+      to left bottom,
+      rgba(255, 204, 0, 0.35),
+      rgba(205, 150, 12, 0.5),
+      rgba(212, 175, 55, 0.35)
+    );
+  }
+
+  &--silver {
+    background-image: linear-gradient(
+      to left bottom,
+      rgb(187, 194, 194, 0.2),
+      rgb(119, 119, 119, 0.4),
+      rgb(169, 169, 169, 0.2)
+    );
+  }
+
+  &--bronze {
+    background-image: linear-gradient(
+      to left bottom,
+      rgb(128, 74, 0, 0.2),
+      rgb(137, 94, 26, 0.3),
+      rgb(156, 122, 60, 0.2),
+      rgb(176, 141, 87, 0.15)
+    );
+  }
+}
+
+.standing__position {
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+
+  width: 24px;
+  height: 24px;
+  background-color: var(--color-bg-dark);
+  background-image: linear-gradient(
+    to right bottom,
+    #1b6666,
+    #7ca374,
+    #7a83ca,
+    #c4a580
+  );
+
+  border: 1px solid transparent;
+  border-radius: var(--radius-full);
+
+  color: var(--color-text-inverse);
+  font-weight: 500;
+
+  &--gold {
+    background-image: linear-gradient(
+      to right bottom,
+      #ffcc00,
+      #b8860b,
+      #d4af37
+    );
+  }
+
+  &--silver {
+    background-image: linear-gradient(
+      to right bottom,
+      #bbc2c2,
+      #777777,
+      #a9a9a9
+    );
+  }
+
+  &--bronze {
+    background-image: linear-gradient(
+      to right bottom,
+      #804a00,
+      #895e1a,
+      #9c7a3c,
+      #b08d57
+    );
+  }
+}
+
+.standing__athlete {
+  flex: 1;
+  font-weight: 500;
+}
+
+.standing__score {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-inline: var(--space-sm);
+  padding-block: var(--space-xs);
+  border-radius: var(--radius-full);
+
+  font-weight: 500;
+  line-height: 1;
+
+  color: var(--color-text-inverse);
+
+  background-color: rgba(46, 47, 66, 0.9);
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(226, 155, 49, 0.4),
+    rgba(78, 215, 50, 0.4),
+    rgba(148, 129, 242, 0.4),
+    rgba(240, 185, 117, 0.4)
+  );
+
+  &--gold {
+    background-image: linear-gradient(
+      to right bottom,
+      #ffcc00,
+      #b8860b,
+      #d4af37
+    );
+  }
+
+  &--silver {
+    background-image: linear-gradient(
+      to right bottom,
+      #bbc2c2,
+      #777777,
+      #a9a9a9
+    );
+  }
+
+  &--bronze {
+    background-image: linear-gradient(
+      to right bottom,
+      #804a00,
+      #895e1a,
+      #9c7a3c,
+      #b08d57
+    );
+  }
+}

@@ -22,3 +22,9 @@
     background-color: var(--color-bg-secondary);
   }
 }
+
+.partner-card__logo {
+  width: 120px;
+  height: 60px;
+  object-fit: contain;
+}
