@@ -15,20 +15,20 @@ export async function initAthletePage() {
   const slug = getAthleteSlugFromURL();
   console.log("MySlug:", slug);
 
-  if (!slug) {
-    redirectTo404();
-    return;
-  }
+  // if (!slug) {
+  //   redirectTo404();
+  //   return;
+  // }
 
   const athletes = await fetchAthletes();
   const pageSlug = getSlugFromPath().trim().toLocaleLowerCase();
 
   const myAthlete = athletes.find((ath) => ath.slug === slug);
 
-  if (!myAthlete) {
-    redirectTo404();
-    return;
-  }
+  // if (!myAthlete) {
+  //   redirectTo404();
+  //   return;
+  // }
 
   // renderAthletePage(myAthlete);
 
