@@ -15,7 +15,7 @@
     "name": "European Championship",
     "slug": "european-championship",
 
-    "group": "competition",
+    "group_id": "competition",
     "description": "European level championships",
 
     "sort_order": 2,
@@ -26,19 +26,18 @@
     "name": "Olympics",
     "slug": "olympics",
 
-    "group": "competition",
+    "group_id": "competition",
     "description": "Olympic Games",
 
     "sort_order": 3,
     "is_active": true
   },
-
   {
     "id": "baku",
     "name": "Baku",
     "slug": "baku",
 
-    "group": "location",
+    "group_id": "location",
     "description": "Events held in Baku",
 
     "sort_order": 10,
@@ -49,7 +48,7 @@
     "name": "Azerbaijan",
     "slug": "azerbaijan",
 
-    "group": "location",
+    "group_id": "location",
     "description": "National level content",
 
     "sort_order": 11,
@@ -61,7 +60,7 @@
     "name": "Pistol",
     "slug": "pistol",
 
-    "group": "discipline",
+    "group_id": "discipline",
     "description": "Pistol shooting discipline",
 
     "sort_order": 20,
@@ -72,7 +71,7 @@
     "name": "Rifle",
     "slug": "rifle",
 
-    "group": "discipline",
+    "group_id": "discipline",
     "description": "Rifle shooting discipline",
 
     "sort_order": 21,
@@ -83,7 +82,7 @@
     "name": "Shotgun",
     "slug": "shotgun",
 
-    "group": "discipline",
+    "group_id": "discipline",
     "description": "Shotgun shooting discipline",
 
     "sort_order": 22,
@@ -95,7 +94,7 @@
     "name": "Gold Medal",
     "slug": "gold-medal",
 
-    "group": "achievement",
+    "group_id": "achievement",
     "description": "Gold medal achievement",
 
     "sort_order": 30,
@@ -106,7 +105,7 @@
     "name": "Record",
     "slug": "record",
 
-    "group": "achievement",
+    "group_id": "achievement",
     "description": "Record performance",
 
     "sort_order": 31,
@@ -118,7 +117,7 @@
     "name": "Junior",
     "slug": "junior",
 
-    "group": "age",
+    "group_id": "age",
     "description": "Junior category",
 
     "sort_order": 40,
@@ -129,7 +128,7 @@
     "name": "Youth",
     "slug": "youth",
 
-    "group": "age",
+    "group_id": "age",
     "description": "Youth category",
 
     "sort_order": 41,
@@ -141,7 +140,7 @@
     "name": "Training",
     "slug": "training",
 
-    "group": "content",
+    "group_id": "content",
     "description": "Training and preparation",
 
     "sort_order": 50,
@@ -152,7 +151,7 @@
     "name": "Interview",
     "slug": "interview",
 
-    "group": "content",
+    "group_id": "content",
     "description": "Interview content",
 
     "sort_order": 51,

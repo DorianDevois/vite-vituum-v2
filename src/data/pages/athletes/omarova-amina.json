@@ -1,0 +1,13 @@
+{
+  "code": "omarova_amina",
+  "slug": "omarova-amina",
+  "url": "athletes/omarova-amina/",
+  "title": "Athlete Omarova Amina",
+  "description": "",
+  "keywords": "",
+  "breadcrumbs": [
+    { "label": "Home", "path": "/" },
+    { "label": "Athletes", "path": "/athletes/" },
+    { "label": "Omarova Amina" }
+  ]
+}

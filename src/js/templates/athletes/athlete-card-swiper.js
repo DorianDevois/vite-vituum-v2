@@ -62,7 +62,7 @@ function createAthleteCard(athlete) {
                     <!-- Meta -->
                     <div class="team-card__meta">
                       <h3 class="team-card__name">
-                        <a class="team-card__name-link" href="athletes/">${fullname}</a>
+                        <a class="team-card__name-link" href="athletes/${slug}/">${fullname}</a>
                       </h3>
                       <!-- <p class="team-card__age">25 years</p> -->
                       <p class="team-card__location">${residence.name}, ${country.name}</p>

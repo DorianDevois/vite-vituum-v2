@@ -1,7 +1,8 @@
 [
   {
     "id": "ath_0001",
-    "slug": "ath-lunev-ruslan",
+    "slug": "lunev-ruslan",
+    "code": "lunev_ruslan",
     "name": "Ruslan",
     "surname": "Lunev",
     "fullname": "Lunev Ruslan",
@@ -99,7 +100,8 @@
   },
   {
     "id": "ath_0002",
-    "slug": "ath-kalmikov-vladislav",
+    "slug": "kalmikov-vladislav",
+    "code": "kalmikov_vladislav",
     "name": "Vladislav",
     "surname": "Kalmikov",
     "fullname": "Kalmikov Vladislav",
@@ -163,7 +165,8 @@
   },
   {
     "id": "ath_0003",
-    "slug": "ath-musayev-haji",
+    "slug": "musayev-haji",
+    "code": "musayev_haji",
     "name": "Haji",
     "surname": "Musayev",
     "fullname": "Musayev Haji",
@@ -227,7 +230,8 @@
   },
   {
     "id": "ath_0004",
-    "slug": "ath-astanov-elvin",
+    "slug": "astanov-elvin",
+    "code": "astanov_elvin",
     "name": "Elvin",
     "surname": "Astanov",
     "fullname": "Astanov Elvin",
@@ -308,7 +312,8 @@
   },
   {
     "id": "ath_0005",
-    "slug": "ath-mammadov-rasul",
+    "slug": "mammadov-rasul",
+    "code": "mammadov_rasul",
     "name": "Rasul",
     "surname": "Mammadov",
     "fullname": "Mammadov Rasul",
@@ -406,7 +411,8 @@
   },
   {
     "id": "ath_0006",
-    "slug": "ath-garayev-imran",
+    "slug": "garayev-imran",
+    "code": "garayev_imran",
     "name": "Imran",
     "surname": "Garayev",
     "fullname": "Garayev Imran",
@@ -469,7 +475,8 @@
   },
   {
     "id": "ath_0007",
-    "slug": "ath-kerzhankin-oleg",
+    "slug": "kerzhankin-oleg",
+    "code": "kerzhankin_oleg",
     "name": "Oleg",
     "surname": "Kerzhankin",
     "fullname": "Kerzhankin Oleg",
@@ -532,7 +539,8 @@
   },
   {
     "id": "ath_0008",
-    "slug": "ath-huseynli-onur",
+    "slug": "huseynli-onur",
+    "code": "huseynli_onur",
     "name": "Onur",
     "surname": "Huseynli",
     "fullname": "Huseynli Onur",
@@ -595,7 +603,8 @@
   },
   {
     "id": "ath_0011",
-    "slug": "ath-khalilov-ramiz",
+    "slug": "khalilov-ramiz",
+    "code": "khalilov_ramiz",
     "name": "Ramiz",
     "surname": "Khalilov",
     "fullname": "Khalilov Ramiz",
@@ -658,7 +667,8 @@
   },
   {
     "id": "ath_0012",
-    "slug": "ath-tapdigli-uzeyir",
+    "slug": "tapdigli-uzeyir",
+    "code": "tapdigli_uzeyir",
     "name": "Uzeyir",
     "surname": "Tapdigli",
     "fullname": "Tapdigli Uzeyir",
@@ -721,7 +731,8 @@
   },
   {
     "id": "ath_0013",
-    "slug": "ath-sofiyev-zahid",
+    "slug": "sofiyev-zahid",
+    "code": "sofiyev_zahid",
     "name": "Zahid",
     "surname": "Sofiyev",
     "fullname": "Sofiyev Zahid",
@@ -784,7 +795,8 @@
   },
   {
     "id": "ath_0014",
-    "slug": "ath-aghazada-niyaz",
+    "slug": "aghazada-niyaz",
+    "code": "aghazada_niyaz",
     "name": "Niyaz",
     "surname": "Aghazada",
     "fullname": "Aghazada Niyaz",
@@ -881,7 +893,8 @@
   },
   {
     "id": "ath_0015",
-    "slug": "ath-gurbanov-fuad",
+    "slug": "gurbanov-fuad",
+    "code": "gurbanov_fuad",
     "name": "Fuad",
     "surname": "Gurbanov",
     "fullname": "Gurbanov Fuad",
@@ -978,7 +991,8 @@
   },
   {
     "id": "ath_0016",
-    "slug": "ath-hasanov-javid",
+    "slug": "hasanov-javid",
+    "code": "hasanov_javid",
     "name": "Javid",
     "surname": "Hasanov",
     "fullname": "Hasanov Javid",
@@ -1041,7 +1055,8 @@
   },
   {
     "id": "ath_0017",
-    "slug": "ath-mustafayev-ali",
+    "slug": "mustafayev-ali",
+    "code": "mustafayev_ali",
     "name": "Ali",
     "surname": "Mustafayev",
     "fullname": "Mustafayev Ali",
@@ -1104,7 +1119,8 @@
   },
   {
     "id": "ath_0018",
-    "slug": "ath-teyublu-mahammad",
+    "slug": "teyublu-mahammad",
+    "code": "teyublu_mahammad",
     "name": "Mahammad",
     "surname": "Teyublu",
     "fullname": "Teyublu Mahammad",
@@ -1165,7 +1181,8 @@
   },
   {
     "id": "ath_0019",
-    "slug": "ath-gurbanov-aslan",
+    "slug": "gurbanov-aslan",
+    "code": "gurbanov_aslan",
     "name": "Aslan",
     "surname": "Gurbanov",
     "fullname": "Gurbanov Aslan",
@@ -1226,7 +1243,8 @@
   },
   {
     "id": "ath_0020",
-    "slug": "ath-asadullayev-abidin",
+    "slug": "asadullayev-abidin",
+    "code": "asadullayev_abidin",
     "name": "Abidin",
     "surname": "Asadullayev",
     "fullname": "Asadullayev Abidin",
@@ -1287,7 +1305,8 @@
   },
   {
     "id": "ath_0023",
-    "slug": "ath-huseynli-ali",
+    "slug": "huseynli-ali",
+    "code": "huseynli_ali",
     "name": "Ali",
     "surname": "Huseynli",
     "fullname": "Huseynli Ali",
@@ -1350,7 +1369,8 @@
   },
   {
     "id": "ath_0024",
-    "slug": "ath-guliyev-alimirza",
+    "slug": "guliyev-alimirza",
+    "code": "guliyev_alimirza",
     "name": "Alimirza",
     "surname": "Guliyev",
     "fullname": "Guliyev Alimirza",
@@ -1430,7 +1450,8 @@
   },
   {
     "id": "ath_0025",
-    "slug": "ath-mammadov-tamerlan",
+    "slug": "mammadov-tamerlan",
+    "code": "mammadov_tamerlan",
     "name": "Tamerlan",
     "surname": "Mammadov",
     "fullname": "Mammadov Tamerlan",
@@ -1493,7 +1514,8 @@
   },
   {
     "id": "ath_0026",
-    "slug": "ath-aghazada-mirmomin",
+    "slug": "aghazada-mirmomin",
+    "code": "aghazada_mirmomin",
     "name": "Mirmomin",
     "surname": "Aghazada",
     "fullname": "Aghazada Mirmomin",
@@ -1556,7 +1578,8 @@
   },
   {
     "id": "ath_0027",
-    "slug": "ath-mehdizade-sabir",
+    "slug": "mehdizade-sabir",
+    "code": "mehdizade_sabir",
     "name": "Sabir",
     "surname": "Mehdizade",
     "fullname": "Mehdizade Sabir",
@@ -1619,7 +1642,8 @@
   },
   {
     "id": "ath_0028",
-    "slug": "ath-novruzlu-murtaza",
+    "slug": "novruzlu-murtaza",
+    "code": "novruzlu_murtaza",
     "name": "Murtaza",
     "surname": "Novruzlu",
     "fullname": "Novruzlu Murtaza",
@@ -1680,7 +1704,8 @@
   },
   {
     "id": "ath_0029",
-    "slug": "ath-aliyev-osman",
+    "slug": "aliyev-osman",
+    "code": "aliyev_osman",
     "name": "Osman",
     "surname": "Aliyev",
     "fullname": "Aliyev Osman",
@@ -1741,7 +1766,8 @@
   },
   {
     "id": "ath_0030",
-    "slug": "ath-nasirova-nigar",
+    "slug": "nasirova-nigar",
+    "code": "nasirova_nigar",
     "name": "Nigar",
     "surname": "Nasirova",
     "fullname": "Nasirova Nigar",
@@ -1839,7 +1865,8 @@
   },
   {
     "id": "ath_0031",
-    "slug": "ath-aliyeva-khanna",
+    "slug": "aliyeva-khanna",
+    "code": "aliyeva_khanna",
     "name": "Khanna",
     "surname": "Aliyeva",
     "fullname": "Aliyeva Khanna",
@@ -1937,7 +1964,8 @@
   },
   {
     "id": "ath_0032",
-    "slug": "ath-sultanova-zeynab",
+    "slug": "sultanova-zeynab",
+    "code": "sultanova_zeynab",
     "name": "Zeynab",
     "surname": "Sultanova",
     "fullname": "Sultanova Zeynab",
@@ -2035,7 +2063,8 @@
   },
   {
     "id": "ath_0033",
-    "slug": "ath-barkhalova-sofiya",
+    "slug": "barkhalova-sofiya",
+    "code": "barkhalova_sofiya",
     "name": "Sofiya",
     "surname": "Barkhalova",
     "fullname": "Barkhalova Sofiya",
@@ -2133,7 +2162,8 @@
   },
   {
     "id": "ath_0034",
-    "slug": "ath-aliyeva-leyli",
+    "slug": "aliyeva-leyli",
+    "code": "aliyeva_leyli",
     "name": "Leyli",
     "surname": "Aliyeva",
     "fullname": "Aliyeva Leyli",
@@ -2231,7 +2261,8 @@
   },
   {
     "id": "ath_0035",
-    "slug": "ath-gambayeva-mehriban",
+    "slug": "gambayeva-mehriban",
+    "code": "gambayeva_mehriban",
     "name": "Mehriban",
     "surname": "Gambayeva",
     "fullname": "Gambayeva Mehriban",
@@ -2293,7 +2324,8 @@
   },
   {
     "id": "ath_0036",
-    "slug": "ath-omarova-amina",
+    "slug": "omarova-amina",
+    "code": "omarova_amina",
     "name": "Amina",
     "surname": "Omarova",
     "fullname": "Omarova Amina",
@@ -2357,7 +2389,8 @@
   },
   {
     "id": "ath_0038",
-    "slug": "ath-aliyeva-nurana",
+    "slug": "aliyeva-nurana",
+    "code": "aliyeva_nurana",
     "name": "Nurana",
     "surname": "Aliyeva",
     "fullname": "Aliyeva Nurana",
@@ -2421,7 +2454,8 @@
   },
   {
     "id": "ath_0039",
-    "slug": "ath-bayramova-zhala",
+    "slug": "bayramova-zhala",
+    "code": "bayramova_zhala",
     "name": "Zhala",
     "surname": "Bayramova",
     "fullname": "Bayramova Zhala",
@@ -2485,7 +2519,8 @@
   },
   {
     "id": "ath_0040",
-    "slug": "ath-ramazanova-nigar",
+    "slug": "ramazanova-nigar",
+    "code": "ramazanova_nigar",
     "name": "Nigar",
     "surname": "Ramazanova",
     "fullname": "Ramazanova Nigar",
@@ -2549,7 +2584,8 @@
   },
   {
     "id": "ath_0041",
-    "slug": "ath-mahmudova-aynur",
+    "slug": "mahmudova-aynur",
+    "code": "mahmudova_aynur",
     "name": "Aynur",
     "surname": "Mahmudova",
     "fullname": "Mahmudova Aynur",
@@ -2613,7 +2649,8 @@
   },
   {
     "id": "ath_0043",
-    "slug": "ath-afsana-elvina",
+    "slug": "afsana-elvina",
+    "code": "afsana_elvina",
     "name": "Elvina",
     "surname": "Afsana",
     "fullname": "Afsana Elvina",
@@ -2675,7 +2712,8 @@
   },
   {
     "id": "ath_0044",
-    "slug": "ath-jafarova-nurlana",
+    "slug": "jafarova-nurlana",
+    "code": "jafarova_nurlana",
     "name": "Nurlana",
     "surname": "Jafarova",
     "fullname": "Jafarova Nurlana",
@@ -2773,7 +2811,8 @@
   },
   {
     "id": "ath_0045",
-    "slug": "ath-meftakhetdinova-rigina",
+    "slug": "meftakhetdinova-rigina",
+    "code": "meftakhetdinova_rigina",
     "name": "Rigina",
     "surname": "Meftakhetdinova",
     "fullname": "Meftakhetdinova Rigina",
@@ -2871,7 +2910,8 @@
   },
   {
     "id": "ath_0046",
-    "slug": "ath-najafova-sevda",
+    "slug": "najafova-sevda",
+    "code": "najafova_sevda",
     "name": "Sevda",
     "surname": "Najafova",
     "fullname": "Najafova Sevda",
@@ -2969,7 +3009,8 @@
   },
   {
     "id": "ath_0047",
-    "slug": "ath-jafarova-narmin",
+    "slug": "jafarova-narmin",
+    "code": "jafarova_narmin",
     "name": "Narmin",
     "surname": "Jafarova",
     "fullname": "Jafarova Narmin",
@@ -3031,7 +3072,8 @@
   },
   {
     "id": "ath_0049",
-    "slug": "ath-jamalova-aydan",
+    "slug": "jamalova-aydan",
+    "code": "jamalova_aydan",
     "name": "Aydan",
     "surname": "Jamalova",
     "fullname": "Jamalova Aydan",
@@ -3095,7 +3137,8 @@
   },
   {
     "id": "ath_0050",
-    "slug": "ath-pashayeva-jamila",
+    "slug": "pashayeva-jamila",
+    "code": "pashayeva_jamila",
     "name": "Jamila",
     "surname": "Pashayeva",
     "fullname": "Pashayeva Jamila",

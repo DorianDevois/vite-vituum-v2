@@ -1,0 +1,7 @@
+{
+  "slug": "athlete",
+  "title": "Athlete",
+  "description": "",
+  "keywords": "",
+  "breadcrumbs": [{ "label": "Home", "path": "/" }, { "label": "Athletes" }]
+}

@@ -1,0 +1,13 @@
+{
+  "code": "bayramova_zhala",
+  "slug": "bayramova-zhala",
+  "url": "athletes/bayramova-zhala/",
+  "title": "Athlete Bayramova Zhala",
+  "description": "",
+  "keywords": "",
+  "breadcrumbs": [
+    { "label": "Home", "path": "/" },
+    { "label": "Athletes", "path": "/athletes/" },
+    { "label": "Bayramova Zhala" }
+  ]
+}

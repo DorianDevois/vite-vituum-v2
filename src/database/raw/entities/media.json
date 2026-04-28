@@ -593,5 +593,56 @@
 
     "created_at": "",
     "updated_at": ""
+  },
+  {
+    "id": "media_0101",
+
+    "type_id": "image",
+
+    "url": "assets/images/news/issf-leadership-meets-azerbaijan-officials-ahead-baku-world-cup/cover.jpg",
+    "description": "Cover for the article",
+
+    "mime_type": "image/jpeg",
+    "width": 1200,
+    "height": 800,
+
+    "is_public": true,
+
+    "created_at": "",
+    "updated_at": ""
+  },
+  {
+    "id": "media_0103",
+
+    "type_id": "image",
+
+    "url": "assets/images/news/future-of-shooting-sport-est-technology/cover.jpg",
+    "description": "Cover for the article",
+
+    "mime_type": "image/jpeg",
+    "width": 1200,
+    "height": 800,
+
+    "is_public": true,
+
+    "created_at": "",
+    "updated_at": ""
+  },
+  {
+    "id": "media_0102",
+
+    "type_id": "image",
+
+    "url": "assets/images/news/electronic-scoring-systems-precision-engineering/cover.jpg",
+    "description": "Cover for the article",
+
+    "mime_type": "image/jpeg",
+    "width": 1200,
+    "height": 800,
+
+    "is_public": true,
+
+    "created_at": "",
+    "updated_at": ""
   }
 ]

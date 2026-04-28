@@ -1,24 +1,25 @@
-// Перетворюємо масив у map для швидкого lookup { id: obj }
 /**
- * Convert Array → Map by id
- *
- * [{ id: "x", ... }] →
- * {
- *   x: { id: "x", ... }
- * }
- *
- * Навіщо:
- * - O(1) доступ
- * - зручно резолвити залежності
+ * @typedef {Object} EntityItem
+ * @property {string|number} id - Унікальний ідентифікатор.
  */
 
 /**
- * Преобразует массив объектов в объект-карту (Map), используя поле `id` в качестве ключа.
+ * @typedef {Record<string|number, Object>} EntityMap
+ */
+
+/**
+ * Модуль для роботи з колекціями даних (Array to Object-map lookup).
+ */
+
+/**
+ * Перетворює масив об'єктів у об'єкт-карту (Map), використовує поле `id` в якості ключа
  *
- * @param {Array<Object>} arr - Массив объектов для преобразования. Каждый объект должен иметь уникальное поле `id`.
- * @param {string} label - Название коллекции (используется для детализации текста ошибки).
- * @returns {Record<string|number, Object>} Объект, где ключи — это ID, а значения — исходные объекты.
- * @throws {Error} Если у элемента отсутствует поле `id` или найден дубликат ID.
+ * Для швидкого lookup `{ id: obj }` для доступу за O(1).
+ *
+ * @param {EntityItem[]} arr - Масив об'єктів для претворення. Кожен об'єкт повинен мати `id`.
+ * @param {string} label - Назва сутності(колекції) для логування помилок.
+ * @returns {EntityMap} Об'єкт, де ключі - це ID, а значення - вихідні об'єкти.
+ * @throws {Error} Якщо у елемента відсутній `id` або знайдено дублікат.
  *
  * @example
  * const users = [{ id: 1, name: 'Alice' }, { id: 2, name: 'Bob' }];
@@ -43,4 +44,28 @@ function arrayToMap(arr, label) {
   return map;
 }
 
-export { arrayToMap };
+/**
+ * Безпечно дістає елемент із об'єкт-карти (Map) за його ID.
+ *
+ * @param {EntityMap} map - Об'єкт-карта, створена за допомогою `arrayToMap`.
+ * @param {string|number} id - ID елемента, який потрібно знайти.
+ * @param {string} label - Назва сутності для тексту помилки (наприклад, "Media").
+ * @param {string|number} parentId - ID батьківської сутності/контейнера (статті/категорії), для контексту помилки.
+ * @returns {Object} Знайдений об'єкт.
+ * @throws {Error} Якщо елемент із таким ID не знайдено (відсутній у карті).
+ *
+ * @example
+ * const media = getFromMap(mediaMap, mediaId, 'Media', articleId);
+ * // Якщо не знайдено, викине помилку: "❌ Media: "media_0042" not found for "art_0101"
+ */
+function getFromMap(map, id, label, parentId) {
+  const item = map[id];
+
+  if (!item) {
+    throw new Error(`❌ ${label}: "${id}" not found! parentId:"${parentId}"`);
+  }
+
+  return item;
+}
+
+export { arrayToMap, getFromMap };

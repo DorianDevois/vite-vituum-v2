@@ -1,7 +1,8 @@
 [
   {
     "id": "ath_0001",
-    "slug": "ath-lunev-ruslan",
+    "slug": "lunev-ruslan",
+    "code": "lunev_ruslan",
     "role_id": "athlete",
 
     "first_name": "Ruslan",
@@ -35,7 +36,8 @@
   },
   {
     "id": "ath_0002",
-    "slug": "ath-kalmikov-vladislav",
+    "slug": "kalmikov-vladislav",
+    "code": "kalmikov_vladislav",
     "role_id": "athlete",
 
     "first_name": "Vladislav",
@@ -69,7 +71,8 @@
   },
   {
     "id": "ath_0003",
-    "slug": "ath-musayev-haji",
+    "slug": "musayev-haji",
+    "code": "musayev_haji",
     "role_id": "athlete",
 
     "first_name": "Haji",
@@ -103,7 +106,8 @@
   },
   {
     "id": "ath_0004",
-    "slug": "ath-astanov-elvin",
+    "slug": "astanov-elvin",
+    "code": "astanov_elvin",
     "role_id": "athlete",
 
     "first_name": "Elvin",
@@ -137,7 +141,8 @@
   },
   {
     "id": "ath_0005",
-    "slug": "ath-mammadov-rasul",
+    "slug": "mammadov-rasul",
+    "code": "mammadov_rasul",
     "role_id": "athlete",
 
     "first_name": "Rasul",
@@ -172,7 +177,8 @@
 
   {
     "id": "ath_0006",
-    "slug": "ath-garayev-imran",
+    "slug": "garayev-imran",
+    "code": "garayev_imran",
     "role_id": "athlete",
 
     "first_name": "Imran",
@@ -204,7 +210,8 @@
   },
   {
     "id": "ath_0007",
-    "slug": "ath-kerzhankin-oleg",
+    "slug": "kerzhankin-oleg",
+    "code": "kerzhankin_oleg",
     "role_id": "athlete",
 
     "first_name": "Oleg",
@@ -236,7 +243,8 @@
   },
   {
     "id": "ath_0008",
-    "slug": "ath-huseynli-onur",
+    "slug": "huseynli-onur",
+    "code": "huseynli_onur",
     "role_id": "athlete",
 
     "first_name": "Onur",
@@ -268,7 +276,8 @@
   },
   {
     "id": "ath_0011",
-    "slug": "ath-khalilov-ramiz",
+    "slug": "khalilov-ramiz",
+    "code": "khalilov_ramiz",
     "role_id": "athlete",
 
     "first_name": "Ramiz",
@@ -300,7 +309,8 @@
   },
   {
     "id": "ath_0012",
-    "slug": "ath-tapdigli-uzeyir",
+    "slug": "tapdigli-uzeyir",
+    "code": "tapdigli_uzeyir",
     "role_id": "athlete",
 
     "first_name": "Uzeyir",
@@ -332,7 +342,8 @@
   },
   {
     "id": "ath_0013",
-    "slug": "ath-sofiyev-zahid",
+    "slug": "sofiyev-zahid",
+    "code": "sofiyev_zahid",
     "role_id": "athlete",
 
     "first_name": "Zahid",
@@ -364,7 +375,8 @@
   },
   {
     "id": "ath_0014",
-    "slug": "ath-aghazada-niyaz",
+    "slug": "aghazada-niyaz",
+    "code": "aghazada_niyaz",
     "role_id": "athlete",
 
     "first_name": "Niyaz",
@@ -396,7 +408,8 @@
   },
   {
     "id": "ath_0015",
-    "slug": "ath-gurbanov-fuad",
+    "slug": "gurbanov-fuad",
+    "code": "gurbanov_fuad",
     "role_id": "athlete",
 
     "first_name": "Fuad",
@@ -428,7 +441,8 @@
   },
   {
     "id": "ath_0016",
-    "slug": "ath-hasanov-javid",
+    "slug": "hasanov-javid",
+    "code": "hasanov_javid",
     "role_id": "athlete",
 
     "first_name": "Javid",
@@ -460,7 +474,8 @@
   },
   {
     "id": "ath_0017",
-    "slug": "ath-mustafayev-ali",
+    "slug": "mustafayev-ali",
+    "code": "mustafayev_ali",
     "role_id": "athlete",
 
     "first_name": "Ali",
@@ -492,7 +507,8 @@
   },
   {
     "id": "ath_0018",
-    "slug": "ath-teyublu-mahammad",
+    "slug": "teyublu-mahammad",
+    "code": "teyublu_mahammad",
     "role_id": "athlete",
 
     "first_name": "Mahammad",
@@ -524,7 +540,8 @@
   },
   {
     "id": "ath_0019",
-    "slug": "ath-gurbanov-aslan",
+    "slug": "gurbanov-aslan",
+    "code": "gurbanov_aslan",
     "role_id": "athlete",
 
     "first_name": "Aslan",
@@ -556,7 +573,8 @@
   },
   {
     "id": "ath_0020",
-    "slug": "ath-asadullayev-abidin",
+    "slug": "asadullayev-abidin",
+    "code": "asadullayev_abidin",
     "role_id": "athlete",
 
     "first_name": "Abidin",
@@ -588,7 +606,8 @@
   },
   {
     "id": "ath_0023",
-    "slug": "ath-huseynli-ali",
+    "slug": "huseynli-ali",
+    "code": "huseynli_ali",
     "role_id": "athlete",
 
     "first_name": "Ali",
@@ -620,7 +639,8 @@
   },
   {
     "id": "ath_0024",
-    "slug": "ath-guliyev-alimirza",
+    "slug": "guliyev-alimirza",
+    "code": "guliyev_alimirza",
     "role_id": "athlete",
 
     "first_name": "Alimirza",
@@ -652,7 +672,8 @@
   },
   {
     "id": "ath_0025",
-    "slug": "ath-mammadov-tamerlan",
+    "slug": "mammadov-tamerlan",
+    "code": "mammadov_tamerlan",
     "role_id": "athlete",
 
     "first_name": "Tamerlan",
@@ -684,7 +705,8 @@
   },
   {
     "id": "ath_0026",
-    "slug": "ath-aghazada-mirmomin",
+    "slug": "aghazada-mirmomin",
+    "code": "aghazada_mirmomin",
     "role_id": "athlete",
 
     "first_name": "Mirmomin",
@@ -716,7 +738,8 @@
   },
   {
     "id": "ath_0027",
-    "slug": "ath-mehdizade-sabir",
+    "slug": "mehdizade-sabir",
+    "code": "mehdizade_sabir",
     "role_id": "athlete",
 
     "first_name": "Sabir",
@@ -748,7 +771,8 @@
   },
   {
     "id": "ath_0028",
-    "slug": "ath-novruzlu-murtaza",
+    "slug": "novruzlu-murtaza",
+    "code": "novruzlu_murtaza",
     "role_id": "athlete",
 
     "first_name": "Murtaza",
@@ -780,7 +804,8 @@
   },
   {
     "id": "ath_0029",
-    "slug": "ath-aliyev-osman",
+    "slug": "aliyev-osman",
+    "code": "aliyev_osman",
     "role_id": "athlete",
 
     "first_name": "Osman",
@@ -812,7 +837,8 @@
   },
   {
     "id": "ath_0030",
-    "slug": "ath-nasirova-nigar",
+    "slug": "nasirova-nigar",
+    "code": "nasirova_nigar",
     "role_id": "athlete",
 
     "first_name": "Nigar",
@@ -846,7 +872,8 @@
   },
   {
     "id": "ath_0031",
-    "slug": "ath-aliyeva-khanna",
+    "slug": "aliyeva-khanna",
+    "code": "aliyeva_khanna",
     "role_id": "athlete",
 
     "first_name": "Khanna",
@@ -880,7 +907,8 @@
   },
   {
     "id": "ath_0032",
-    "slug": "ath-sultanova-zeynab",
+    "slug": "sultanova-zeynab",
+    "code": "sultanova_zeynab",
     "role_id": "athlete",
 
     "first_name": "Zeynab",
@@ -914,7 +942,8 @@
   },
   {
     "id": "ath_0033",
-    "slug": "ath-barkhalova-sofiya",
+    "slug": "barkhalova-sofiya",
+    "code": "barkhalova_sofiya",
     "role_id": "athlete",
 
     "first_name": "Sofiya",
@@ -948,7 +977,8 @@
   },
   {
     "id": "ath_0034",
-    "slug": "ath-aliyeva-leyli",
+    "slug": "aliyeva-leyli",
+    "code": "aliyeva_leyli",
     "role_id": "athlete",
 
     "first_name": "Leyli",
@@ -982,7 +1012,8 @@
   },
   {
     "id": "ath_0035",
-    "slug": "ath-gambayeva-mehriban",
+    "slug": "gambayeva-mehriban",
+    "code": "gambayeva_mehriban",
     "role_id": "athlete",
 
     "first_name": "Mehriban",
@@ -1016,7 +1047,8 @@
   },
   {
     "id": "ath_0036",
-    "slug": "ath-omarova-amina",
+    "slug": "omarova-amina",
+    "code": "omarova_amina",
     "role_id": "athlete",
 
     "first_name": "Amina",
@@ -1050,7 +1082,8 @@
   },
   {
     "id": "ath_0038",
-    "slug": "ath-aliyeva-nurana",
+    "slug": "aliyeva-nurana",
+    "code": "aliyeva_nurana",
     "role_id": "athlete",
 
     "first_name": "Nurana",
@@ -1084,7 +1117,8 @@
   },
   {
     "id": "ath_0039",
-    "slug": "ath-bayramova-zhala",
+    "slug": "bayramova-zhala",
+    "code": "bayramova_zhala",
     "role_id": "athlete",
 
     "first_name": "Zhala",
@@ -1118,7 +1152,8 @@
   },
   {
     "id": "ath_0040",
-    "slug": "ath-ramazanova-nigar",
+    "slug": "ramazanova-nigar",
+    "code": "ramazanova_nigar",
     "role_id": "athlete",
 
     "first_name": "Nigar",
@@ -1152,7 +1187,8 @@
   },
   {
     "id": "ath_0041",
-    "slug": "ath-mahmudova-aynur",
+    "slug": "mahmudova-aynur",
+    "code": "mahmudova_aynur",
     "role_id": "athlete",
 
     "first_name": "Aynur",
@@ -1186,7 +1222,8 @@
   },
   {
     "id": "ath_0043",
-    "slug": "ath-afsana-elvina",
+    "slug": "afsana-elvina",
+    "code": "afsana_elvina",
     "role_id": "athlete",
 
     "first_name": "Elvina",
@@ -1220,7 +1257,8 @@
   },
   {
     "id": "ath_0044",
-    "slug": "ath-jafarova-nurlana",
+    "slug": "jafarova-nurlana",
+    "code": "jafarova_nurlana",
     "role_id": "athlete",
 
     "first_name": "Nurlana",
@@ -1254,7 +1292,8 @@
   },
   {
     "id": "ath_0045",
-    "slug": "ath-meftakhetdinova-rigina",
+    "slug": "meftakhetdinova-rigina",
+    "code": "meftakhetdinova_rigina",
     "role_id": "athlete",
 
     "first_name": "Rigina",
@@ -1288,7 +1327,8 @@
   },
   {
     "id": "ath_0046",
-    "slug": "ath-najafova-sevda",
+    "slug": "najafova-sevda",
+    "code": "najafova_sevda",
     "role_id": "athlete",
 
     "first_name": "Sevda",
@@ -1322,7 +1362,8 @@
   },
   {
     "id": "ath_0047",
-    "slug": "ath-jafarova-narmin",
+    "slug": "jafarova-narmin",
+    "code": "jafarova_narmin",
     "role_id": "athlete",
 
     "first_name": "Narmin",
@@ -1356,7 +1397,8 @@
   },
   {
     "id": "ath_0049",
-    "slug": "ath-jamalova-aydan",
+    "slug": "jamalova-aydan",
+    "code": "jamalova_aydan",
     "role_id": "athlete",
 
     "first_name": "Aydan",
@@ -1390,7 +1432,8 @@
   },
   {
     "id": "ath_0050",
-    "slug": "ath-pashayeva-jamila",
+    "slug": "pashayeva-jamila",
+    "code": "pashayeva_jamila",
     "role_id": "athlete",
 
     "first_name": "Jamila",

@@ -1,0 +1,13 @@
+{
+  "code": "najafova_sevda",
+  "slug": "najafova-sevda",
+  "url": "athletes/najafova-sevda/",
+  "title": "Athlete Najafova Sevda",
+  "description": "",
+  "keywords": "",
+  "breadcrumbs": [
+    { "label": "Home", "path": "/" },
+    { "label": "Athletes", "path": "/athletes/" },
+    { "label": "Najafova Sevda" }
+  ]
+}

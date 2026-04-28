@@ -1,0 +1,30 @@
+[
+  {
+    "id": "tag_rel_0001",
+
+    "entity_id": "art_0001",
+    "entity_type_id": "article",
+
+    "tag_id": "world_cup",
+
+    "is_active": true,
+    "sort_order": 1,
+
+    "created_at": "",
+    "updated_at": ""
+  },
+  {
+    "id": "tag_rel_0002",
+
+    "entity_id": "art_0001",
+    "entity_type_id": "article",
+
+    "tag_id": "pistol",
+
+    "is_active": true,
+    "sort_order": 2,
+
+    "created_at": "",
+    "updated_at": ""
+  }
+]

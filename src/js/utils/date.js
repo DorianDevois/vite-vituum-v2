@@ -31,7 +31,7 @@ export function formatShortDate(dateStr) {
  */
 export function formatLongDate(dateStr) {
   const date = new Date(dateStr);
-  const [month, day, year] = date
+  const [day, month, year] = date
     .toLocaleDateString("en-GB", {
       day: "2-digit",
       month: "short",

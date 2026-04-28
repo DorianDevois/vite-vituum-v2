@@ -1,7 +1,6 @@
 [
   {
     "id": "competition",
-    "code": "competition",
     "slug": "competition",
     "name": "Competition",
     "description": "Competition types and series",
@@ -15,7 +14,6 @@
   },
   {
     "id": "location",
-    "code": "location",
     "slug": "location",
     "name": "Location",
     "description": "Geographical context",
@@ -29,7 +27,6 @@
   },
   {
     "id": "discipline",
-    "code": "discipline",
     "slug": "discipline",
     "name": "Discipline",
     "description": "Shooting disciplines",
@@ -43,7 +40,6 @@
   },
   {
     "id": "achievement",
-    "code": "achievement",
     "slug": "achievement",
     "name": "Achievement",
     "description": "Results and achievements",
@@ -57,7 +53,6 @@
   },
   {
     "id": "age",
-    "code": "age",
     "slug": "age",
     "name": "Age Category",
     "description": "Age-based grouping",
@@ -71,7 +66,6 @@
   },
   {
     "id": "content",
-    "code": "content",
     "slug": "content",
     "name": "Content Type",
     "description": "Type of content",
@@ -85,7 +79,6 @@
   },
   {
     "id": "organization",
-    "code": "organization",
     "slug": "organization",
     "name": "Organization",
     "description": "Organizations and federations",

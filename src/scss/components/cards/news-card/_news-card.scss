@@ -120,6 +120,10 @@
   padding-bottom: var(--space-lg);
 }
 
+.news-card__tags:empty {
+  display: none;
+}
+
 .news-card__title {
   display: -webkit-box;
   -webkit-box-orient: vertical;

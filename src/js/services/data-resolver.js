@@ -1,3 +1,5 @@
+import { getFromMap } from "../utils/array.js";
+
 /**
  * Резолвит сущность из мапы по её ID.
  *
@@ -122,10 +124,97 @@ function resolveMainDiscipline({ personId, payload }) {
   return relation ? relation.discipline : null;
 }
 
+/**
+ * Знаходить та формує дані обкладинки для конкретної статті.
+ *
+ * @param {Object} params - Параметри функції.
+ * @param {Object.<string, Object>} params.mediaMap - Словник медіа-файлів, де ключ — ID медіа.
+ * @param {number|string} params.articleId - Унікальний ідентифікатор статті.
+ * @param {Array<Object>} params.entityMedia - Список зв'язків між сутностями та медіа.
+ *
+ * @returns {Object|null} Об'єкт медіа з доданими alt та title, або null, якщо обкладинка не знайдена.
+ */
+function resolveArticleCover({ mediaMap, articleId, entityMedia }) {
+  const relation = entityMedia.find(
+    (item) =>
+      item.entity_id === articleId &&
+      item.entity_type === "article" &&
+      item.usage_type_id === "cover" &&
+      item.is_primary &&
+      item.is_active,
+  );
+
+  if (!relation) {
+    return null;
+  }
+
+  // const media = mediaMap[relation.media_id];
+  const media = getFromMap(mediaMap, relation.media_id, "Media", relation.id);
+
+  media.alt = relation?.alt ?? "";
+  media.title = relation?.title ?? "";
+
+  return media;
+}
+
+/**
+ * Глибокий резолв тегів з приєднанням даних про їхні групи.
+ *
+ * @param {Object} params - Параметри функції.
+ * @param {string|number} params.entityId - ID сутності (статті, продукту тощо).
+ * @param {string|number} params.entityTypeId - Тип сутності (entity-types.json).
+ * @param {Object.<string, Object>} params.tagMap - об'єкт-карта(Map) тегів, де ключ — `id` тега.
+ * @param {Object.<string, Object>} params.tagGroupMap - об'єкт-карта(Map) груп тегів, де ключ — `id` групи.
+ * @param {Array<Object>} params.tagRelations - Масив зв'язків між сутностями та тегами.
+ *
+ * @returns {Array<Object>|null} Масив об'єктів тегів із вкладеним об'єктом group або null, якщо entityId відсутній.
+ *
+ * @throws {Error} Якщо тег із масиву зв'язків не знайдено в tagMap.
+ * @throws {Error} Якщо група тега не знайдена в tagGroupMap.
+ */
+function resolveTagsForEntity({
+  entityId,
+  entityTypeId,
+  tagMap,
+  tagGroupMap,
+  tagRelations,
+}) {
+  if (!entityId) {
+    return [];
+  }
+
+  // 1. Знаходимо усі зв'язки
+  const filteredRels = tagRelations.filter(
+    (rel) =>
+      rel.entity_id === entityId &&
+      rel.entity_type_id === entityTypeId &&
+      rel.is_active,
+  );
+
+  if (!filteredRels.length) {
+    return [];
+  }
+
+  // 2. Cортуємо отриманий масив тегів
+  filteredRels.sort((a, b) => (a.sort_order || 0) - (b.sort_order || 0));
+
+  return filteredRels.map((rel) => {
+    const tag = getFromMap(tagMap, rel.tag_id, "Tag", rel.id);
+    const group = getFromMap(tagGroupMap, tag.group_id, "Tag group", tag.id);
+
+    return {
+      ...tag,
+      group: { ...group },
+    };
+  });
+}
+
 export {
   resolve,
   resolveCityDeep,
   resolveCountryDeep,
   resolvePersonPortrait,
   resolveMainDiscipline,
+  resolveArticleCover,
+  resolveTagsForEntity,
 };

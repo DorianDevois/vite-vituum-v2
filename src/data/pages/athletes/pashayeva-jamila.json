@@ -1,0 +1,13 @@
+{
+  "code": "pashayeva_jamila",
+  "slug": "pashayeva-jamila",
+  "url": "athletes/pashayeva-jamila/",
+  "title": "Athlete Pashayeva Jamila",
+  "description": "",
+  "keywords": "",
+  "breadcrumbs": [
+    { "label": "Home", "path": "/" },
+    { "label": "Athletes", "path": "/athletes/" },
+    { "label": "Pashayeva Jamila" }
+  ]
+}

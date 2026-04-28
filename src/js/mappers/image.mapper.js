@@ -14,4 +14,17 @@ function portraitDTO(portrait) {
   };
 }
 
-export { portraitDTO };
+function coverDTO(cover) {
+  if (!cover) {
+    return null;
+  }
+
+  return {
+    url: cover.url,
+    alt: cover.alt,
+    width: cover.width,
+    height: cover.height,
+  };
+}
+
+export { portraitDTO, coverDTO };

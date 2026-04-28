@@ -1,0 +1,13 @@
+{
+  "code": "aliyev_osman",
+  "slug": "aliyev-osman",
+  "url": "athletes/aliyev-osman/",
+  "title": "Athlete Aliyev Osman",
+  "description": "",
+  "keywords": "",
+  "breadcrumbs": [
+    { "label": "Home", "path": "/" },
+    { "label": "Athletes", "path": "/athletes/" },
+    { "label": "Aliyev Osman" }
+  ]
+}

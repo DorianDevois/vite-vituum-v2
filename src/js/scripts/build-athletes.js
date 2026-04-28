@@ -46,7 +46,7 @@ const paths = {
  */
 const dependencies = {
   media: path.join(ENTITIES, "media.json"),
-  mediaLinks: path.join(RELATIONS, "media-links.json"),
+  entityMediaRels: path.join(RELATIONS, "entity-media-relations.json"),
   primaryDisciplines: path.join(
     RELATIONS,
     "athlete-primary-discipline.temp.json",
@@ -84,7 +84,7 @@ function buildAthletes() {
   const peopleBase = readJSON(paths.people);
 
   // Парсимо массив зв'язків між сутностями та медиа-файлами.
-  const mediaLinks = readJSON(dependencies.mediaLinks);
+  const entityMediaRels = readJSON(dependencies.entityMediaRels);
   const primaryDisciplines = readJSON(dependencies.primaryDisciplines);
 
   /**
@@ -128,14 +128,19 @@ function buildAthletes() {
     const portrait = resolvePersonPortrait({
       mediaMap: maps.media,
       personId: person.id,
-      entityMedia: mediaLinks,
+      entityMedia: entityMediaRels,
     });
+
+    if (!person.code) {
+      throw new Error(`Person without code! id: ${person.id}`);
+    }
 
     // Структура фінального об'єкта
     return {
       // Базові поля
       id: person.id,
       slug: person.slug,
+      code: person?.code ?? null,
       name: person.first_name,
       surname: person.last_name,
       fullname: `${person.last_name} ${person.first_name}`,

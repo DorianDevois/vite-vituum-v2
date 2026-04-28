@@ -1,6 +1,8 @@
 [
   {
     "id": "news",
+    "slug": "news",
+    "code": "news",
     "name": "News",
     "description": "General federation news",
     "temp": "🔥 1. Не змішуємо ВСЕ в 'news' 👉 це головна помилка більшості сайтів",
@@ -10,6 +12,8 @@
   },
   {
     "id": "competitions",
+    "slug": "competitions",
+    "code": "competitions",
     "name": "Competitions",
     "description": "Competition-related articles, reports, summaries",
     "temp": "🔥 2. 'competitions' + 'results' окремо 👉 бо: competitions → історія / опис results → сухі результати",
@@ -19,6 +23,8 @@
   },
   {
     "id": "announcements",
+    "slug": "announcements",
+    "code": "announcements",
     "name": "Announcements",
     "description": "Official announcements and notices",
     "temp": "🔥 3. 'announcements' — критично, 👉 це: відбори, зміни правил, дедлайни",
@@ -28,6 +34,8 @@
   },
   {
     "id": "results",
+    "slug": "results",
+    "code": "results",
     "name": "Results",
     "description": "Competition results and performance highlights",
     "temp": "🔥 2. 'competitions' + 'results' окремо 👉 бо: competitions → історія / опис results → сухі результати",
@@ -37,6 +45,8 @@
   },
   {
     "id": "interviews",
+    "slug": "interviews",
+    "code": "interviews",
     "name": "Interviews",
     "description": "Athlete and coach interviews",
 
@@ -45,6 +55,8 @@
   },
   {
     "id": "development",
+    "slug": "development",
+    "code": "development",
     "name": "Development",
     "description": "Youth, junior and grassroots development",
     "temp": "🔥 5. 'development' 👉 дуже важливо для: юніорів, програм розвитку",
@@ -54,6 +66,8 @@
   },
   {
     "id": "federation",
+    "slug": "federation",
+    "code": "federation",
     "name": "Federation",
     "description": "Internal federation news, meetings, governance",
     "temp": "🔥 4. 'federation' 👉 внутрішнє життя: збори, призначення, партнери",
@@ -63,6 +77,8 @@
   },
   {
     "id": "anti_doping",
+    "slug": "anti-Doping",
+    "code": "anti_doping",
     "name": "Anti-Doping",
     "description": "Anti-doping rules, education and updates",
 
@@ -71,6 +87,8 @@
   },
   {
     "id": "media",
+    "slug": "media",
+    "code": "media",
     "name": "Media",
     "description": "Photo galleries, videos and media releases",
     "temp": "🔥 6. 'media' 👉 щоб не пхати галереї в news",
